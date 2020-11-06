@@ -1,0 +1,19 @@
+.map {
+  z-index: 1000;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #bebebe;
+
+  .leaflet-control-container .leaflet-top.leaflet-left {
+    @media screen and (max-width: 1023px) {
+      top: 115px;
+    }
+  }
+
+  .leaflet-control-attribution.leaflet-control {
+    display: none;
+  }
+}

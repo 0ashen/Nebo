@@ -25,321 +25,47 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a93724db-b843-4a10-b9a3-36db44c2f3b6" name="Default Changelist" comment="client: add template">
-      <change afterPath="$PROJECT_DIR$/client/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/.idea/client.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/copy/Nebo.Live.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/copy/Nebo.Live_files/635(1).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/copy/Nebo.Live_files/635(2).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/copy/Nebo.Live_files/635(3).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/copy/Nebo.Live_files/635(4).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/copy/Nebo.Live_files/635(5).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/copy/Nebo.Live_files/635(6).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/copy/Nebo.Live_files/635.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/copy/Nebo.Live_files/636(1).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/copy/Nebo.Live_files/636(2).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/copy/Nebo.Live_files/636(3).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/copy/Nebo.Live_files/636(4).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/copy/Nebo.Live_files/636(5).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/copy/Nebo.Live_files/636(6).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/copy/Nebo.Live_files/636.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/copy/Nebo.Live_files/637(1).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/copy/Nebo.Live_files/637(2).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/copy/Nebo.Live_files/637(3).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/copy/Nebo.Live_files/637(4).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/copy/Nebo.Live_files/637(5).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/copy/Nebo.Live_files/637(6).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/copy/Nebo.Live_files/637.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/copy/Nebo.Live_files/638(1).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/copy/Nebo.Live_files/638(2).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/copy/Nebo.Live_files/638(3).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/copy/Nebo.Live_files/638(4).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/copy/Nebo.Live_files/638(5).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/copy/Nebo.Live_files/638(6).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/copy/Nebo.Live_files/638.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/copy/Nebo.Live_files/639(1).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/copy/Nebo.Live_files/639(2).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/copy/Nebo.Live_files/639(3).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/copy/Nebo.Live_files/639(4).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/copy/Nebo.Live_files/639(5).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/copy/Nebo.Live_files/639(6).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/copy/Nebo.Live_files/639.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/copy/Nebo.Live_files/analytics.js.download" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/copy/Nebo.Live_files/app-store-dfdf6ee8e40f8bd6a678ef96d45290b94a2e7113d0d3ddaef61ffbbc53044c8c.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/copy/Nebo.Live_files/application-2259e0fad394bb23b3879652dc7d7f9ba560c64d0ee1a71496acb94b131d8d6d.js.download" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/copy/Nebo.Live_files/application-727585f45c575c1a430da3ead5c7656ddb540f2c987d75050f26040454d3eddc.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/copy/Nebo.Live_files/firebase-49645ca0f0661072a0b243e622fc5278e20231d1e733e04a521c59c15b007ffc.js.download" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/copy/Nebo.Live_files/firebase-notification-635daa651d3f3cdbbe812813cd41aefca8f53f13dbe8771d78ebce6e587ac8fc.js.download" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/copy/Nebo.Live_files/heatmap-dda492def4c37f4d526ac9d81d4f39e29bdd51f667ef1ee6239213bcce0b4688.js.download" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/copy/Nebo.Live_files/highcharts.src.js.download" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/copy/Nebo.Live_files/jquery.min.js.download" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/copy/Nebo.Live_files/js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/copy/Nebo.Live_files/js.cookie.min.js.download" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/copy/Nebo.Live_files/jstz.min.js.download" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/copy/Nebo.Live_files/leaflet-heatmap-be57ea173b1c7615cb36d8c701127c8af352c4f34e4d332f8abffaaa150d6351.js.download" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/copy/Nebo.Live_files/leaflet-util-1bced7b1ac9a540cda8f203c63aff4c57ac7297bdd986f8f5f69e8a6750c293c.js.download" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/copy/Nebo.Live_files/leaflet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/copy/Nebo.Live_files/leaflet.js.download" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/copy/Nebo.Live_files/leaflet.markercluster.js.download" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/copy/Nebo.Live_files/logo-b7d9459a91b90fbfe9b52df81763604a667101ff552126ebc1ec2b4096023868.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/copy/Nebo.Live_files/loup-67b84bd8a12caf344bfc004b60f6d396cf73260d0c0b2073acc6524321d4ec34.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/copy/Nebo.Live_files/play-market-a48988fa952af42d679b5dc32de55df2cdfc86e8d70cf09e501376fc8e564f97.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/copy/Nebo.Live_files/wind-direction-1b6e4f7cc95d9f6fee2d32eea16f2f3f39089a072f776d985bb30c4fcffc104c.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/copy/Nebo.Live_files/x-e2592d0da031c99d6d171a1061d44546d4ce157a07b49b6e88cfb0ab57c24cc0.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/.babelrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/.browserslistrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/.eslintignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/.eslintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/1.14.1-browserslistrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/1.14.1-webpack.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/README_RU.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/appveyor.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/docs/en/changelog.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/docs/en/css-concat-processing.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/docs/en/css-manual-processing.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/docs/en/css-processing.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/docs/en/faq.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/docs/en/file-structure.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/docs/en/fonts-and-misc.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/docs/en/handlebars-helpers.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/docs/en/html-processing.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/docs/en/images-processing.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/docs/en/js-concat-processing.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/docs/en/js-processing.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/docs/en/js-webpack-processing.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/docs/en/options.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/docs/en/plugins-options.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/docs/en/scenarios.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/docs/en/svg-processing.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/docs/en/tasks-and-watchers.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/docs/en/tasks.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/docs/en/update-guide.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/docs/en/watchers.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/docs/ru/changelog.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/docs/ru/css-concat-processing.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/docs/ru/css-manual-processing.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/docs/ru/css-processing.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/docs/ru/faq.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/docs/ru/file-structure.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/docs/ru/fonts-and-misc.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/docs/ru/for-contributors.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/docs/ru/handlebars-helpers.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/docs/ru/html-processing.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/docs/ru/images-processing.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/docs/ru/js-concat-processing.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/docs/ru/js-processing.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/docs/ru/js-webpack-processing.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/docs/ru/options.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/docs/ru/plugins-options.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/docs/ru/scenarios.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/docs/ru/svg-processing.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/docs/ru/tasks-and-watchers.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/docs/ru/tasks.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/docs/ru/update-guide.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/docs/ru/watchers.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/gulpfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/markup/components/app/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/markup/components/app/app.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/markup/components/app/app.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/markup/components/app/chart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/markup/components/app/map.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/markup/components/head/head.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/markup/pages/_template.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/markup/pages/index.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/markup/static/fonts/hinted-subset-kroppenround.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/markup/static/fonts/hinted-subset-kroppenround.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/markup/static/fonts/hinted-subset-ttrounds-light.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/markup/static/fonts/hinted-subset-ttrounds-light.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/markup/static/fonts/ttroundscondensed-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/markup/static/fonts/ttroundscondensed-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/markup/static/img/general/8.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/markup/static/img/general/app-store.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/markup/static/img/general/arrow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/markup/static/img/general/check.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/markup/static/img/general/close.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/markup/static/img/general/favs/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/markup/static/img/general/lang.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/markup/static/img/general/layers.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/markup/static/img/general/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/markup/static/img/general/loup.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/markup/static/img/general/play-market.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/markup/static/img/general/rating.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/markup/static/img/general/wind-direction.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/markup/static/img/general/x.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/markup/static/js/libraries/leaflet-heatmap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/markup/static/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/markup/static/js/separate-js/html5shiv-3.7.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/markup/static/js/separate-js/svg4everybody.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/markup/static/misc/humans.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/markup/static/scss/GUI.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/markup/static/scss/common.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/markup/static/scss/entry/built-in-partials/_service-ie8.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/markup/static/scss/entry/built-in-partials/_service.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/markup/static/scss/entry/ie/main_ie8.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/markup/static/scss/entry/ie/main_ie9.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/markup/static/scss/entry/main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/markup/static/scss/entry/partials/_components-ie8.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/markup/static/scss/entry/partials/_components-ie9.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/markup/static/scss/entry/partials/_components.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/markup/static/scss/entry/partials/_libraries.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/markup/static/scss/entry/partials/_plugins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/markup/static/scss/etc/etc.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/markup/static/scss/fonts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/markup/static/scss/libraries/leaflet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/markup/static/scss/libraries/nouislider.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/markup/static/scss/mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/markup/static/scss/normalize.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/markup/static/scss/plugins/sample-plugin.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/markup/static/scss/separate-css/separate-css-sample.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/markup/static/scss/sprite-generator-templates/scss.sprite.mustache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/markup/static/scss/sprite-generator-templates/scss.svg-fallback-sprite.mustache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/markup/static/scss/sprite-generator-templates/scss.svg-sprite.mustache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/markup/static/scss/sprites-scss/sprite-ie.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/markup/static/scss/vars.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/plugins-config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/prettier.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars-config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/helpers/filter-files-by-path.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/helpers/get-templater-name.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/helpers/install-additional-deps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/helpers/modify-date-formatter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/helpers/notifier.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/helpers/plugins-config-processing.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/helpers/set-build-version.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/helpers/set-ulimit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/helpers/skip-task-with-empty-pipe.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/helpers/start-screen-generator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/helpers/string-helper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/helpers/tars-fs-helper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/helpers/watcher-log.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/icons/tars.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/icons/tars_error.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/tars.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/tasks/css/compile-css-for-ie8.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/tasks/css/compile-css-for-ie9.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/tasks/css/compile-css.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/tasks/css/compress-css.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/tasks/css/helpers/actions-on-sprite-task-skipping.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/tasks/css/helpers/concat-compile-css-task-template.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/tasks/css/helpers/manual-compile-css-task-template.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/tasks/css/helpers/sprite-mixins/less-raster-sprite-mixins.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/tasks/css/helpers/sprite-mixins/less-svg-fallback-sprite-mixins.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/tasks/css/helpers/sprite-mixins/less-svg-sprite-mixins.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/tasks/css/helpers/sprite-mixins/scss-raster-sprite-mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/tasks/css/helpers/sprite-mixins/scss-svg-fallback-sprite-mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/tasks/css/helpers/sprite-mixins/scss-svg-sprite-mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/tasks/css/helpers/sprite-mixins/stylus-raster-sprite-mixins.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/tasks/css/helpers/sprite-mixins/stylus-svg-fallback-sprite-mixins.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/tasks/css/helpers/sprite-mixins/stylus-svg-sprite-mixins.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/tasks/css/make-fallback-for-svg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/tasks/css/make-sprite-for-svg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/tasks/css/make-sprite.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/tasks/css/move-separate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/tasks/html/compile-templates.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/tasks/html/concat-mocks-data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/tasks/html/helpers/generate-static-path.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/tasks/html/helpers/handlebars-helpers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/tasks/html/helpers/jade-helpers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/tasks/html/helpers/pages-and-data-files-processing.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/tasks/html/helpers/pug-helpers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/tasks/html/helpers/utils/dates.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/tasks/html/helpers/utils/utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/tasks/html/modify-html.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/tasks/images/helpers/svg-symbols.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/tasks/images/helpers/symbols-data-template.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/tasks/images/make-symbols-sprite.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/tasks/images/minify-images.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/tasks/images/minify-svg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/tasks/images/move-content-img.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/tasks/images/move-general-img.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/tasks/images/move-plugins-img.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/tasks/images/raster-svg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/tasks/js/check.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/tasks/js/concat-processing.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/tasks/js/helpers/separate-files-filter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/tasks/js/move-separate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/tasks/js/processing.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/tasks/js/webpack-processing.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/tasks/main/build-dev.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/tasks/main/build.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/tasks/main/create-build.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/tasks/main/dev.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/tasks/other/move-assets.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/tasks/other/move-fonts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/tasks/other/move-misc-files.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/tasks/services/clean.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/tasks/services/create-fs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/tasks/services/init.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/tasks/services/remove-init-fs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/tasks/services/update-deps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/tasks/services/zip-build.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/user-tasks/example-task.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/user-tasks/html/helpers/handlebars-helpers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/user-tasks/html/helpers/jade-helpers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/user-tasks/html/helpers/modify-options.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/user-tasks/html/helpers/pug-helpers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/user-watchers/example-watcher.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/watchers/css/common-css.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/watchers/css/ie8-css.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/watchers/css/ie9-css.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/watchers/css/modules-css.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/watchers/js/all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/watchers/move/assets.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/watchers/move/content-img.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/watchers/move/fonts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/watchers/move/general-img.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/watchers/move/misc-files.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/watchers/move/plugins-img.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/watchers/move/separate-css.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/watchers/move/separate-js.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/watchers/sprite/png-sprites.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/watchers/sprite/svg-sprites.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/watchers/sprite/symbols.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/watchers/templates/data-files.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/tars/watchers/templates/page-modules.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nebo-tars-html-template/webpack.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/app/app.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/app/app.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/app/app.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/react-app-env.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/reportWebVitals.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/scss/common.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/scss/fonts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/scss/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/scss/mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/scss/normalize.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/scss/vars.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/setupTests.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/yarn.lock" afterDir="false" />
+    <list default="true" id="a93724db-b843-4a10-b9a3-36db44c2f3b6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/client/public/favs/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/fonts/hinted-subset-kroppenround.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/fonts/hinted-subset-kroppenround.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/fonts/hinted-subset-ttrounds-light.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/fonts/hinted-subset-ttrounds-light.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/fonts/ttroundscondensed-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/fonts/ttroundscondensed-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/App/Loader/Loader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/App/Loader/Loader.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/App/Map/Map.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/App/Map/Map.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/img/general/8.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/img/general/app-store.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/img/general/arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/img/general/check.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/img/general/close.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/img/general/lang.icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/img/general/layers.icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/img/general/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/img/general/loup.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/img/general/play-market.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/img/general/rating.icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/img/general/wind-direction.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/img/general/x.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/nebo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/nebo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scraping.ts" beforeDir="false" afterPath="$PROJECT_DIR$/scraping.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/favs/dev-favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App/App.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/app.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App/App.test.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/scss/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/scss/common.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/scss/fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/scss/fonts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/scss/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/scss/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/scss/mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/scss/mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/scss/normalize.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/scss/vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/scss/vars.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/client/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -372,7 +98,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.18.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="12.19.3" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/client" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/client/src/assets" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -386,17 +112,29 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Projects\nebo\client\src\scss" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\nebo\client\public\favs" />
+      <recent name="D:\Projects\nebo\client\public" />
+      <recent name="D:\Projects\nebo\client\src\assets" />
       <recent name="D:\Projects\nebo\client\src\scss" />
       <recent name="D:\Projects\nebo\client\src\app" />
-      <recent name="D:\Projects\nebo\copy" />
-      <recent name="D:\Projects\nebo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\nebo\client\src\assets" />
+      <recent name="D:\Projects\nebo\client\src\scss" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.start">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/client/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/client/package.json" />
       <command value="run" />
@@ -410,6 +148,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="npm.start" />
+        <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
   </component>
@@ -427,7 +166,9 @@
       <workItem from="1604493896774" duration="634000" />
       <workItem from="1604647671772" duration="1921000" />
       <workItem from="1604668701829" duration="1652000" />
-      <workItem from="1604671156662" duration="857000" />
+      <workItem from="1604671156662" duration="1323000" />
+      <workItem from="1604675077293" duration="750000" />
+      <workItem from="1604675843005" duration="12675000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1604345648480</created>
@@ -443,7 +184,21 @@
       <option name="project" value="LOCAL" />
       <updated>1604345701144</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="client: add template">
+      <created>1604674378661</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604674378661</updated>
+    </task>
+    <task id="LOCAL-00004" summary="client: add template">
+      <created>1604674440887</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1604674440887</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -482,54 +237,62 @@
     <option name="LAST_COMMIT_MESSAGE" value="client: add template" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="734" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604671237012">
+    <state x="734" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604674794751">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="734" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1604671237012" />
-    <state x="1010" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604668754337">
+    <state x="734" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1604674794751" />
+    <state x="1054" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604684120550">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1010" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1604668754337" />
-    <state x="905" y="87" key="CommitChangelistDialog2" timestamp="1604671303126">
+    <state x="1054" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1040@0.0.2560.1040" timestamp="1604684120550" />
+    <state x="1010" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604675596803">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="905" y="87" key="CommitChangelistDialog2/0.0.2560.1040@0.0.2560.1040" timestamp="1604671303126" />
-    <state x="1060" y="275" key="FileChooserDialogImpl" timestamp="1604671199529">
+    <state x="1010" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1604675596803" />
+    <state x="905" y="87" key="CommitChangelistDialog2" timestamp="1604674440096">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1060" y="275" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1604671199529" />
-    <state width="694" height="912" key="GridCell.Tab.0.bottom" timestamp="1604670368188">
+    <state x="905" y="87" key="CommitChangelistDialog2/0.0.2560.1040@0.0.2560.1040" timestamp="1604674440096" />
+    <state x="1060" y="275" key="FileChooserDialogImpl" timestamp="1604674834063">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="694" height="912" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1604670368188" />
-    <state width="694" height="912" key="GridCell.Tab.0.center" timestamp="1604670368188">
+    <state x="1060" y="275" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1604674834063" />
+    <state width="767" height="912" key="GridCell.Tab.0.bottom" timestamp="1604687411104">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="694" height="912" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1604670368188" />
-    <state width="694" height="912" key="GridCell.Tab.0.left" timestamp="1604670368188">
+    <state width="767" height="912" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1604687411104" />
+    <state width="767" height="912" key="GridCell.Tab.0.center" timestamp="1604687411104">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="694" height="912" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1604670368188" />
-    <state width="694" height="912" key="GridCell.Tab.0.right" timestamp="1604670368188">
+    <state width="767" height="912" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1604687411104" />
+    <state width="767" height="912" key="GridCell.Tab.0.left" timestamp="1604687411104">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="694" height="912" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1604670368188" />
-    <state x="781" y="165" width="1199" height="710" key="SettingsEditor" timestamp="1604666393665">
+    <state width="767" height="912" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1604687411104" />
+    <state width="767" height="912" key="GridCell.Tab.0.right" timestamp="1604687411104">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="781" y="165" width="1199" height="710" key="SettingsEditor/0.0.2560.1040@0.0.2560.1040" timestamp="1604666393665" />
-    <state x="872" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604345703218">
+    <state width="767" height="912" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1604687411104" />
+    <state x="356" y="171" width="1199" height="710" key="SettingsEditor" timestamp="1604685078507">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="872" y="253" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1604345703218" />
-    <state x="987" y="224" width="585" height="592" key="find.popup" timestamp="1604668418184">
+    <state x="356" y="171" width="1199" height="710" key="SettingsEditor/0.0.2560.1040@0.0.2560.1040" timestamp="1604685078507" />
+    <state x="872" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604674444259">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="987" y="224" width="585" height="592" key="find.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1604668418184" />
+    <state x="872" y="253" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1604674444259" />
+    <state x="987" y="224" width="585" height="592" key="find.popup" timestamp="1604687984525">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="987" y="224" width="585" height="592" key="find.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1604687984525" />
     <state x="997" y="328" key="jetbrains.nodejs.interpreters-dialog" timestamp="1604671219008">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="997" y="328" key="jetbrains.nodejs.interpreters-dialog/0.0.2560.1040@0.0.2560.1040" timestamp="1604671219008" />
+    <state x="936" y="240" key="run.anything.popup" timestamp="1604687982255">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="936" y="240" key="run.anything.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1604687982255" />
     <state x="943" y="225" key="search.everywhere.popup" timestamp="1604665429101">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>

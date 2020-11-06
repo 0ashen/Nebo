@@ -1,13 +1,13 @@
-@import './normalize.scss';
+@import '~normalize.css';
 
 /* Mixins, which are specific for current project */
-@import './mixins.scss';
+@import 'mixins';
 
 /* Scss for used fonts */
-@import './fonts.scss';
+@import 'fonts';
 
 /* Vars, which are specific for current project */
-@import './vars.scss';
+@import 'vars';
 
 /* Common styles for current project */
-@import './common.scss';
+@import 'common';
