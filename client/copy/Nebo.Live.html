@@ -1,0 +1,952 @@
+<!DOCTYPE html>
+<!-- saved from url=(0018)https://nebo.live/ -->
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Nebo.Live</title>
+    <link rel="shortcut icon" type="image/png"
+          href="https://nebo.live/assets/favicon-28e579443ef12d78cebe5119f689ffa7d3bc5fb9bff1488d2599ef553c1f96db.png">
+    <link rel="apple-touch-icon" type="image/png"
+          href="https://nebo.live/assets/favicon-28e579443ef12d78cebe5119f689ffa7d3bc5fb9bff1488d2599ef553c1f96db.png">
+    <meta name="csrf-param" content="authenticity_token">
+    <meta name="csrf-token"
+          content="qKPySz/9LRXcugUY7rUX3d4oc1k0KEcDvqUswkdQ64qiPCdRZfYG4lCwmeff74HbEEH7ufqZWSj/r2tYy0pPzg==">
+    <meta content="#3556A1" name="theme-color">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link rel="stylesheet" media="screen" href="./Nebo.Live_files/leaflet.css">
+    <link rel="stylesheet" media="all"
+          href="./Nebo.Live_files/application-727585f45c575c1a430da3ead5c7656ddb540f2c987d75050f26040454d3eddc.css"
+          data-turbolinks-track="reload">
+    <script src="./Nebo.Live_files/jquery.min.js.download"></script>
+    <script src="./Nebo.Live_files/js.cookie.min.js.download"></script>
+    <script src="./Nebo.Live_files/highcharts.src.js.download"></script>
+    <script src="./Nebo.Live_files/jstz.min.js.download"></script>
+</head>
+<body>
+<div class="app">
+    <div class="loader">
+        <svg fill="none" viewBox="0 0 40 21" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <clippath id="clipPathId">
+                    <path d="M10.4374 19.8601C7.97939 19.8601 5.65537 18.9282 3.89633 17.2361C2.02663 15.4378 0.995645 13.0206 1.00001 10.4315C0.998558 7.83957 2.02807 5.42235 3.89777 3.62399C5.65827 1.93194 7.98084 1 10.4403 1H10.4665C12.9362 1.00728 15.2631 1.95232 17.0207 3.6604C17.0789 3.71573 17.1357 3.77252 17.191 3.82931C17.6657 4.31567 17.6585 5.09471 17.1721 5.57087C16.6858 6.04558 15.9067 6.0383 15.4305 5.55195C15.3898 5.50972 15.3475 5.46748 15.3039 5.42526C12.6376 2.83184 8.28664 2.82019 5.60586 5.39904C4.22251 6.72852 3.46239 8.51668 3.46239 10.4315C3.46239 12.3478 4.22397 14.1345 5.60586 15.464C8.275 18.0298 12.6143 18.0283 15.2806 15.4582L15.2826 15.4562C15.3256 15.4147 15.3671 15.3745 15.4072 15.3329L15.4597 15.2805L15.5179 15.2339C15.5325 15.2208 17.4298 13.6613 19.0928 10.1942C20.862 6.50718 22.8944 4.67938 23.2904 4.34447C23.3312 4.30227 23.3735 4.26143 23.4157 4.22069C25.1747 2.52573 27.4987 1.59087 29.9597 1.58942H29.9655C32.4235 1.58942 34.7475 2.52136 36.5065 4.21341C38.3762 6.01177 39.4072 8.42899 39.4028 11.018C39.4043 13.61 38.3748 16.0272 36.5051 17.8256C34.7446 19.5176 32.422 20.4496 29.9626 20.4496H29.9363C27.4667 20.4423 25.1398 19.4972 23.3822 17.7892C23.3239 17.7338 23.2672 17.677 23.2118 17.6202C22.7371 17.1339 22.7444 16.3548 23.2307 15.8787C23.7171 15.404 24.4961 15.4113 24.9723 15.8976C25.0131 15.9398 25.0553 15.9821 25.099 16.0243C27.7652 18.6177 32.1162 18.6294 34.797 16.0505C36.1803 14.721 36.9405 12.9329 36.9405 11.018C36.9405 9.10173 36.1789 7.31502 34.797 5.98555C32.1279 3.41981 27.7885 3.42126 25.1223 5.99138L25.1202 5.99345L25.1199 5.99367C25.0771 6.03508 25.0356 6.07514 24.9956 6.11661L24.9432 6.16903L24.8849 6.21563C24.8704 6.22873 22.9734 7.79006 21.3105 11.2572C19.5413 14.9442 17.5085 16.7702 17.1124 17.1051C17.0717 17.1473 17.0295 17.188 16.9873 17.2288L16.9872 17.2289C15.2281 18.9238 12.9041 19.8587 10.4432 19.8601H10.4374Z"
+                          fill="#d3d3d3"></path>
+                </clippath>
+            </defs>
+            <path d="M10.4374 19.8601C7.97939 19.8601 5.65537 18.9282 3.89633 17.2361C2.02663 15.4378 0.995645 13.0206 1.00001 10.4315C0.998558 7.83957 2.02807 5.42235 3.89777 3.62399C5.65827 1.93194 7.98084 1 10.4403 1H10.4665C12.9362 1.00728 15.2631 1.95232 17.0207 3.6604C17.0789 3.71573 17.1357 3.77252 17.191 3.82931C17.6657 4.31567 17.6585 5.09471 17.1721 5.57087C16.6858 6.04558 15.9067 6.0383 15.4305 5.55195C15.3898 5.50972 15.3475 5.46748 15.3039 5.42526C12.6376 2.83184 8.28664 2.82019 5.60586 5.39904C4.22251 6.72852 3.46239 8.51668 3.46239 10.4315C3.46239 12.3478 4.22397 14.1345 5.60586 15.464C8.275 18.0298 12.6143 18.0283 15.2806 15.4582L15.2826 15.4562C15.3256 15.4147 15.3671 15.3745 15.4072 15.3329L15.4597 15.2805L15.5179 15.2339C15.5325 15.2208 17.4298 13.6613 19.0928 10.1942C20.862 6.50718 22.8944 4.67938 23.2904 4.34447C23.3312 4.30227 23.3735 4.26143 23.4157 4.22069C25.1747 2.52573 27.4987 1.59087 29.9597 1.58942H29.9655C32.4235 1.58942 34.7475 2.52136 36.5065 4.21341C38.3762 6.01177 39.4072 8.42899 39.4028 11.018C39.4043 13.61 38.3748 16.0272 36.5051 17.8256C34.7446 19.5176 32.422 20.4496 29.9626 20.4496H29.9363C27.4667 20.4423 25.1398 19.4972 23.3822 17.7892C23.3239 17.7338 23.2672 17.677 23.2118 17.6202C22.7371 17.1339 22.7444 16.3548 23.2307 15.8787C23.7171 15.404 24.4961 15.4113 24.9723 15.8976C25.0131 15.9398 25.0553 15.9821 25.099 16.0243C27.7652 18.6177 32.1162 18.6294 34.797 16.0505C36.1803 14.721 36.9405 12.9329 36.9405 11.018C36.9405 9.10173 36.1789 7.31502 34.797 5.98555C32.1279 3.41981 27.7885 3.42126 25.1223 5.99138L25.1202 5.99345L25.1199 5.99367C25.0771 6.03508 25.0356 6.07514 24.9956 6.11661L24.9432 6.16903L24.8849 6.21563C24.8704 6.22873 22.9734 7.79006 21.3105 11.2572C19.5413 14.9442 17.5085 16.7702 17.1124 17.1051C17.0717 17.1473 17.0295 17.188 16.9873 17.2288L16.9872 17.2289C15.2281 18.9238 12.9041 19.8587 10.4432 19.8601H10.4374Z"
+                  fill="#d3d3d3"></path>
+            <path clip-path="url(#clipPathId)"
+                  d="M18.5 7L17.5 5.5L14 3L11 2L7 3L4.5 4.5L3 7L2 9.5L2.5 12L3.5 14.5L5.5 17L8 18.5H11.5L15 17.5L17.5 15.5L19 12.5L20.5 10L22 8L23.5 5.5L26.5 3.5L29 3H31.5L34 3.5L36 5.5L37.5 8L38 10V12.5L37.5 14.5L36 17L34 18L31.5 19H29L27 18.5L25 17.5L22.5 15L22 14.5"
+                  id="loader-anim-path" stroke-width="4" stroke="black"
+                  style="stroke-dasharray: 98;  stroke: #4479ff; stroke-linecap: round;"></path>
+        </svg>
+    </div>
+
+    <div class="interface">
+        <div class="top">
+            <div class="select-subject">
+                <div class="selected">
+<span>
+Красноярск
+</span>
+                </div>
+                <div class="places">
+                    <div class="search">
+                        <input placeholder="Название города" type="text">
+                        <img alt=""
+                             src="./Nebo.Live_files/loup-67b84bd8a12caf344bfc004b60f6d396cf73260d0c0b2073acc6524321d4ec34.svg">
+                    </div>
+                    <div class="body">
+                        <div class="empty">
+                            <p>
+                                Нет датчиков Nebo в этом городе
+                            </p>
+                            <a href="https://ru.nebo.live/sensor">
+                                Хочу установить Nebo
+                            </a>
+                        </div>
+                        <div class="item" data-value="almaty">
+                            <p>
+                                <a href="https://nebo.live/almaty">Алматы</a>
+                            </p>
+                            <small>
+                                Казахстан
+                            </small>
+                        </div>
+                        <div class="item" data-value="achinsk">
+                            <p>
+                                <a href="https://nebo.live/achinsk">Ачинск</a>
+                            </p>
+                            <small>
+                                Россия
+                            </small>
+                        </div>
+                        <div class="item" data-value="bishkek">
+                            <p>
+                                <a href="https://nebo.live/bishkek">Бишкек</a>
+                            </p>
+                            <small>
+                                Киргизия
+                            </small>
+                        </div>
+                        <div class="item" data-value="bratsk">
+                            <p>
+                                <a href="https://nebo.live/bratsk">Братск</a>
+                            </p>
+                            <small>
+                                Россия
+                            </small>
+                        </div>
+                        <div class="item" data-value="zelenogorsk">
+                            <p>
+                                <a href="https://nebo.live/zelenogorsk">Зеленогорск</a>
+                            </p>
+                            <small>
+                                Россия
+                            </small>
+                        </div>
+                        <div class="item" data-value="iskitim">
+                            <p>
+                                <a href="https://nebo.live/iskitim">Искитим</a>
+                            </p>
+                            <small>
+                                Россия
+                            </small>
+                        </div>
+                        <div class="item" data-value="kansk">
+                            <p>
+                                <a href="https://nebo.live/kansk">Канск</a>
+                            </p>
+                            <small>
+                                Россия
+                            </small>
+                        </div>
+                        <div class="item" data-value="karaganda">
+                            <p>
+                                <a href="https://nebo.live/karaganda">Караганда</a>
+                            </p>
+                            <small>
+                                Казахстан
+                            </small>
+                        </div>
+                        <div class="is-selected item" data-value="krs">
+                            <p>
+                                <a href="https://nebo.live/krs">Красноярск</a>
+                            </p>
+                            <small>
+                                Россия
+                            </small>
+                        </div>
+                        <div class="item" data-value="moscow">
+                            <p>
+                                <a href="https://nebo.live/moscow">Москва</a>
+                            </p>
+                            <small>
+                                Россия
+                            </small>
+                        </div>
+                        <div class="item" data-value="novokuznetsk">
+                            <p>
+                                <a href="https://nebo.live/novokuznetsk">Новокузнецк</a>
+                            </p>
+                            <small>
+                                Россия
+                            </small>
+                        </div>
+                        <div class="item" data-value="novosibirsk">
+                            <p>
+                                <a href="https://nebo.live/novosibirsk">Новосибирск</a>
+                            </p>
+                            <small>
+                                Россия
+                            </small>
+                        </div>
+                        <div class="item" data-value="nursultan">
+                            <p>
+                                <a href="https://nebo.live/nursultan">Нур-Султан</a>
+                            </p>
+                            <small>
+                                Казахстан
+                            </small>
+                        </div>
+                        <div class="item" data-value="pavlodar">
+                            <p>
+                                <a href="https://nebo.live/pavlodar">Павлодар </a>
+                            </p>
+                            <small>
+                                Казахстан
+                            </small>
+                        </div>
+                        <div class="item" data-value="spb">
+                            <p>
+                                <a href="https://nebo.live/spb">Санкт-Петербург</a>
+                            </p>
+                            <small>
+                                Россия
+                            </small>
+                        </div>
+                        <div class="item" data-value="sibay">
+                            <p>
+                                <a href="https://nebo.live/sibay">Сибай</a>
+                            </p>
+                            <small>
+                                Россия
+                            </small>
+                        </div>
+                        <div class="item" data-value="temirtau">
+                            <p>
+                                <a href="https://nebo.live/temirtau">Темиртау</a>
+                            </p>
+                            <small>
+                                Казахстан
+                            </small>
+                        </div>
+                        <div class="item" data-value="tomsk">
+                            <p>
+                                <a href="https://nebo.live/tomsk">Томск</a>
+                            </p>
+                            <small>
+                                Россия
+                            </small>
+                        </div>
+                        <div class="item" data-value="ulan-ude">
+                            <p>
+                                <a href="https://nebo.live/ulan-ude">Улан-Удэ</a>
+                            </p>
+                            <small>
+                                Россия
+                            </small>
+                        </div>
+                        <div class="item" data-value="uskemen">
+                            <p>
+                                <a href="https://nebo.live/uskemen">Усть-Каменогорск</a>
+                            </p>
+                            <small>
+                                Казахстан
+                            </small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="temperature">0 °C</div>
+            <div class="wind">
+                <img id="wind-direction"
+                     style="transform: translate(-50%, -50%) rotate(369deg); transition: all 0.5s ease;" title="1 м\с"
+                     src="./Nebo.Live_files/wind-direction-1b6e4f7cc95d9f6fee2d32eea16f2f3f39089a072f776d985bb30c4fcffc104c.svg"
+                     alt="Wind direction">
+                <span>1</span>
+            </div>
+            <button class="menu-button" data-open="menuPopup">
+                <span></span>
+            </button>
+        </div>
+
+        <div class="mid">
+            <ul class="buttons">
+                <li>
+                    <button data-open="tooltip">
+                        <svg fill="none" height="22" viewBox="0 0 22 22" width="22" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M21.8848 11.1123C21.8848 10.6002 21.6132 10.1335 21.1571 9.86285L19.9574 9.15709C20.4196 8.88269 20.8314 8.63793 21.158 8.44358C21.6132 8.17197 21.8848 7.70528 21.8848 7.19507C21.8848 6.68486 21.6132 6.21816 21.158 5.94605C19.6585 5.05425 14.5738 2.0326 12.0673 0.595703C11.4868 0.262402 10.7811 0.249044 10.1537 0.598595C10.1537 0.598595 3.33714 4.60243 1.06876 5.94564C0.612672 6.21623 0.341064 6.68293 0.341064 7.19507C0.341064 7.70528 0.612672 8.17197 1.06784 8.44408C1.39444 8.6383 1.80619 8.88301 2.2682 9.15728L1.06881 9.86285C0.612672 10.1335 0.341064 10.6002 0.341064 11.1123C0.341064 11.6225 0.612672 12.0892 1.06784 12.3613C1.39444 12.5556 1.80619 12.8003 2.2682 13.0745L1.06881 13.7801C0.612672 14.0508 0.341064 14.5174 0.341064 15.0296C0.341064 15.5398 0.612672 16.0065 1.06784 16.2786C3.0082 17.4324 7.77733 20.2638 10.1585 21.629C10.4502 21.7963 10.7811 21.8848 11.113 21.8848C11.4448 21.8848 11.7757 21.7963 12.0683 21.6284C14.4486 20.2637 19.2177 17.4324 21.1581 16.2781C21.6133 16.0065 21.8848 15.5398 21.8848 15.0296C21.8848 14.5174 21.6132 14.0508 21.1571 13.7801L19.9575 13.0744C20.4196 12.7999 20.8314 12.5552 21.1581 12.3608C21.6132 12.0892 21.8848 11.6225 21.8848 11.1123ZM1.56897 7.60374C1.49437 7.5588 1.32031 7.42968 1.32031 7.19589C1.32031 6.9611 1.49341 6.83298 1.568 6.78896C3.83349 5.44727 10.6405 1.4494 10.6396 1.44986C10.9513 1.27438 11.2917 1.28108 11.5806 1.44651C14.0803 2.87955 19.1603 5.89767 20.6569 6.788C20.7315 6.83294 20.9056 6.96206 20.9056 7.19585C20.9056 7.42963 20.7315 7.55875 20.6569 7.60323C18.7194 8.75558 13.956 11.5839 11.5815 12.9447C11.287 13.113 10.9379 13.1125 10.6453 12.9452C8.26982 11.5839 3.50643 8.75563 1.56897 7.60374ZM20.6579 14.623C20.7325 14.667 20.9056 14.7952 20.9056 15.03C20.9056 15.2638 20.7315 15.3929 20.6569 15.4373C18.7194 16.5897 13.956 19.418 11.5815 20.7788C11.287 20.9472 10.9379 20.9466 10.6453 20.7793C8.26982 19.418 3.50643 16.5897 1.56897 15.4378C1.49437 15.3929 1.32031 15.2637 1.32031 15.03C1.32031 14.7952 1.49341 14.667 1.568 14.623L3.22964 13.6452C5.47558 14.9765 8.43824 16.7257 10.1585 17.7119C10.4502 17.8792 10.7811 17.9677 11.113 17.9677C11.4448 17.9677 11.7757 17.8792 12.0683 17.7114C13.7879 16.7255 16.7503 14.9766 18.9961 13.6452L20.6579 14.623ZM20.6569 11.5203C18.7194 12.6727 13.956 15.501 11.5815 16.8618C11.287 17.0301 10.9379 17.0296 10.6453 16.8623C8.26982 15.5009 3.50643 12.6727 1.56897 11.5208C1.49437 11.4758 1.32031 11.3467 1.32031 11.1129C1.32031 10.8781 1.49341 10.75 1.568 10.706L3.22964 9.72822C5.47558 11.0594 8.43824 12.8086 10.1585 13.7948C10.4502 13.9622 10.7811 14.0507 11.113 14.0507C11.4448 14.0507 11.7757 13.9622 12.0683 13.7944C13.7879 12.8085 16.7503 11.0596 18.9961 9.72817L20.6579 10.706C20.7325 10.75 20.9056 10.8781 20.9056 11.1129C20.9056 11.3467 20.7315 11.4758 20.6569 11.5203Z"
+                                  fill="#4A72FC"></path>
+                        </svg>
+                    </button>
+                    <div class="tooltip">
+                        <ul>
+                            <li>
+                                <p id="toggleLayer_sensors" class="is-selected">
+                                    Датчики
+                                </p>
+                            </li>
+                            <li>
+                                <p id="toggleLayer_heatmap">
+                                    Карта загрязнения
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a id="list-sensors-link" data-remote="true" href="https://nebo.live/ru/krs/sensors">
+                        <svg fill="none" height="19" viewBox="0 0 19 19" width="19" xmlns="http://www.w3.org/2000/svg">
+                            <path clip-rule="evenodd"
+                                  d="M0.0644531 0.830527C0.0644531 0.544968 0.295945 0.313477 0.581504 0.313477H5.75201C6.03757 0.313477 6.26906 0.544968 6.26906 0.830527C6.26906 1.11609 6.03757 1.34758 5.75201 1.34758H0.581504C0.295945 1.34758 0.0644531 1.11609 0.0644531 0.830527ZM15.6621 0.744352C15.9477 0.744352 16.1792 0.975844 16.1792 1.2614V8.63064L17.8818 6.92805C18.0837 6.72613 18.4111 6.72613 18.613 6.92805C18.8149 7.12997 18.8149 7.45735 18.613 7.65927L16.0278 10.2445C15.8258 10.4464 15.4985 10.4464 15.2965 10.2445L12.7113 7.65927C12.5094 7.45735 12.5094 7.12997 12.7113 6.92805C12.9132 6.72613 13.2406 6.72613 13.4425 6.92805L15.1451 8.63064V1.2614C15.1451 0.975844 15.3766 0.744352 15.6621 0.744352ZM0.0644531 5.13928C0.0644531 4.85372 0.295945 4.62223 0.581504 4.62223H7.90639C8.19195 4.62223 8.42344 4.85372 8.42344 5.13928C8.42344 5.42484 8.19195 5.65633 7.90639 5.65633H0.581504C0.295945 5.65633 0.0644531 5.42484 0.0644531 5.13928ZM0.0644531 9.44804C0.0644531 9.16248 0.295945 8.93099 0.581504 8.93099H10.9225C11.2081 8.93099 11.4396 9.16248 11.4396 9.44804C11.4396 9.7336 11.2081 9.96509 10.9225 9.96509H0.581504C0.295945 9.96509 0.0644531 9.7336 0.0644531 9.44804ZM0.0644531 13.3259C0.0644531 13.0404 0.295945 12.8089 0.581504 12.8089H13.5078C13.7933 12.8089 14.0248 13.0404 14.0248 13.3259C14.0248 13.6115 13.7933 13.843 13.5078 13.843H0.581504C0.295945 13.843 0.0644531 13.6115 0.0644531 13.3259ZM0.0644531 17.6347C0.0644531 17.3491 0.295945 17.1176 0.581504 17.1176H15.6621C15.9477 17.1176 16.1792 17.3491 16.1792 17.6347C16.1792 17.9202 15.9477 18.1517 15.6621 18.1517H0.581504C0.295945 18.1517 0.0644531 17.9202 0.0644531 17.6347Z"
+                                  fill-rule="evenodd" fill="#4A72FC"></path>
+                        </svg>
+                    </a></li>
+                <li>
+                    <button data-open="tooltip">
+                        <svg fill="none" height="22" viewBox="0 0 22 22" width="22" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19.8173 4.26091H11.7141L10.5009 0.556252C10.4418 0.375612 10.2732 0.253418 10.0831 0.253418H2.40864C1.26858 0.253418 0.341064 1.18094 0.341064 2.32104V15.7219C0.341064 16.862 1.26858 17.7895 2.40864 17.7895H10.4924L11.7257 21.4963C11.7855 21.676 11.9536 21.7972 12.1429 21.7972H19.8172C20.9573 21.7972 21.8848 20.8697 21.8848 19.7296V6.32861C21.8848 5.18851 20.9573 4.26091 19.8173 4.26091ZM2.40864 16.9102C1.75344 16.9102 1.2204 16.3771 1.2204 15.7219V2.32104C1.2204 1.66584 1.75344 1.13276 2.40864 1.13276H9.76441L14.9308 16.9102H2.40864V16.9102ZM15.0875 12.3102C15.2757 12.5981 15.5021 12.9176 15.7694 13.2553C15.5192 13.5374 15.2426 13.8231 14.938 14.1064L13.7275 10.4098H14.0756C14.228 10.7862 14.5435 11.4783 15.0875 12.3102ZM15.0343 10.4098H17.65C17.4199 10.9108 17.0059 11.6918 16.3423 12.5599C16.151 12.3105 15.9844 12.0737 15.8415 11.8565C15.4616 11.2791 15.2004 10.7719 15.0343 10.4098ZM11.4192 17.7895H14.5888L12.3131 20.4762L11.4192 17.7895ZM19.8173 20.9179H13.0914L15.8655 17.6428C15.9352 17.565 15.978 17.4626 15.978 17.3499C15.978 17.2919 15.9668 17.2365 15.9464 17.1858L15.2374 15.0206C15.6491 14.6604 16.0169 14.2946 16.3441 13.9333C17.0823 14.7482 18.0476 15.6134 19.2811 16.3686C19.3527 16.4125 19.432 16.4334 19.5102 16.4334C19.6582 16.4334 19.8027 16.3587 19.8856 16.2232C20.0124 16.0162 19.9473 15.7455 19.7402 15.6187C18.5422 14.8851 17.6156 14.0411 16.9175 13.256C17.8937 12.0213 18.4022 10.9236 18.6091 10.4098H19.9063C20.1491 10.4098 20.346 10.213 20.346 9.97014C20.346 9.72731 20.1491 9.53047 19.9063 9.53047H16.7544V8.783C16.7544 8.54017 16.5575 8.34333 16.3147 8.34333C16.0719 8.34333 15.8751 8.54017 15.8751 8.783V9.53043H13.4395L12.0019 5.14025H19.8172C20.4724 5.14025 21.0054 5.67333 21.0054 6.32852V19.7296H21.0055C21.0055 20.3848 20.4725 20.9179 19.8173 20.9179Z"
+                                  fill="#4A72FC"></path>
+                            <path d="M8.82474 15.041H8.6279C8.38511 15.041 8.18823 15.2379 8.18823 15.4807C8.18823 15.7235 8.38511 15.9204 8.6279 15.9204H8.82474C9.06753 15.9204 9.26441 15.7235 9.26441 15.4807C9.26441 15.2379 9.06753 15.041 8.82474 15.041Z"
+                                  fill="#4A72FC"></path>
+                            <path d="M7.20558 15.041H2.93503C2.69224 15.041 2.49536 15.2379 2.49536 15.4807C2.49536 15.7235 2.69224 15.9204 2.93503 15.9204H7.20558C7.44837 15.9204 7.64525 15.7235 7.64525 15.4807C7.64525 15.2379 7.44837 15.041 7.20558 15.041Z"
+                                  fill="#1F1F30"></path>
+                            <path clip-rule="evenodd"
+                                  d="M6.58491 5.26077C6.77094 5.25886 6.94003 5.36852 7.01416 5.53915L9.66506 11.6404C9.76692 11.8749 9.65944 12.1475 9.42499 12.2494C9.19053 12.3513 8.91789 12.2438 8.81602 12.0093L8.06859 10.289H5.21655L4.51423 12.0006C4.41719 12.2371 4.1468 12.3501 3.91031 12.2531C3.67382 12.156 3.56077 11.8857 3.65782 11.6492L6.16144 5.54789C6.23207 5.37577 6.39888 5.26267 6.58491 5.26077ZM5.59641 9.36333H7.66639L6.60183 6.91315L5.59641 9.36333Z"
+                                  fill-rule="evenodd" fill="#4A72FC"></path>
+                        </svg>
+                    </button>
+                    <div class="tooltip">
+                        <ul>
+                            <li>
+                                <a disable="" href="https://nebo.live/#">Choose your language</a>
+                            </li>
+                            <li>
+                                <a data-no-turbolink="true" href="https://nebo.live/en/krs">English</a>
+                            </li>
+                            <li>
+                                <a data-no-turbolink="true" href="https://nebo.live/ru/krs">Русский</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="bot">
+            <img class="logo" alt="nebo-logo"
+                 src="./Nebo.Live_files/logo-b7d9459a91b90fbfe9b52df81763604a667101ff552126ebc1ec2b4096023868.svg">
+            <button class="play-button is-stop"></button>
+            <div class="history-slider noUi-target noUi-ltr noUi-horizontal noUi-txt-dir-ltr">
+                <div class="noUi-base">
+                    <div class="noUi-connects"></div>
+                    <div class="noUi-origin" style="transform: translate(0%, 0px); z-index: 4;">
+                        <div class="noUi-handle noUi-handle-lower" data-handle="0" tabindex="0" role="slider"
+                             aria-orientation="horizontal" aria-valuemin="0.0" aria-valuemax="72.0" aria-valuenow="72.0"
+                             aria-valuetext="72">
+                            <div class="noUi-touch-area"></div>
+                            <div class="noUi-tooltip">15:00</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="noUi-pips noUi-pips-horizontal">
+                    <div class="noUi-marker noUi-marker-horizontal noUi-marker-large" style="left: 0%;"></div>
+                    <div class="noUi-value noUi-value-horizontal noUi-value-large" data-value="0" style="left: 0%;">Tue.
+                        03
+                    </div>
+                    <div class="noUi-marker noUi-marker-horizontal noUi-marker-large" style="left: 33%;"></div>
+                    <div class="noUi-value noUi-value-horizontal noUi-value-large" data-value="23.76"
+                         style="left: 33%;">Wed. 04
+                    </div>
+                    <div class="noUi-marker noUi-marker-horizontal noUi-marker-large" style="left: 66%;"></div>
+                    <div class="noUi-value noUi-value-horizontal noUi-value-large" data-value="47.52"
+                         style="left: 66%;">Thu. 05
+                    </div>
+                    <div class="noUi-marker noUi-marker-horizontal noUi-marker-large" style="left: 100%;"></div>
+                    <div class="noUi-value noUi-value-horizontal noUi-value-large" data-value="72" style="left: 100%;">
+                        Fri. 06
+                    </div>
+                </div>
+            </div>
+            <ul class="markets">
+                <li>
+                    <a href="https://play.google.com/store/apps/details?id=nebo.krasnoyarsk.blacksky">
+                        <img alt="play-market"
+                             src="./Nebo.Live_files/play-market-a48988fa952af42d679b5dc32de55df2cdfc86e8d70cf09e501376fc8e564f97.svg">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://apps.apple.com/ru/app/nebo/id1271451328">
+                        <img alt="app-store"
+                             src="./Nebo.Live_files/app-store-dfdf6ee8e40f8bd6a678ef96d45290b94a2e7113d0d3ddaef61ffbbc53044c8c.svg">
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+    <div class="popup" id="menuPopup">
+        <button class="close">
+            <img alt="" src="./Nebo.Live_files/x-e2592d0da031c99d6d171a1061d44546d4ce157a07b49b6e88cfb0ab57c24cc0.svg">
+        </button>
+        <div class="body">
+            <nav class="main-menu">
+                <ul>
+                    <li>
+                        <a class="active" href="https://nebo.live/ru">
+                            Карта
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://ru.nebo.live/">
+                            О проекте
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://ru.nebo.live/sensor">
+                            Мой Nebo
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://ru.nebo.live/api">
+                            API
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://ru.nebo.live/research">
+                            Исследования
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.dropbox.com/sh/h51odm3kpkhqskr/AAAPZez0Ku6WnyKD0r9qEqsva?dl=0"
+                           target="_blank">
+                            Скачать данные
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://ru.nebo.live/new_sensor">
+                            Заявка
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://ru.nebo.live/privacy_policy">
+                            Политика
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://ru.nebo.live/terms_of_use">
+                            Условия
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <div class="map leaflet-container leaflet-touch leaflet-fade-anim leaflet-grab leaflet-touch-drag leaflet-touch-zoom"
+         id="mapInstance" tabindex="0" style="outline: none;">
+        <div class="leaflet-pane leaflet-map-pane" style="transform: translate3d(-58px, 101px, 0px);">
+            <div class="leaflet-pane leaflet-tile-pane">
+                <div class="leaflet-layer " style="z-index: 1; opacity: 1;">
+                    <div class="leaflet-tile-container leaflet-zoom-animated"
+                         style="z-index: 18; transform: translate3d(0px, 0px, 0px) scale(1);"><img alt=""
+                                                                                                   role="presentation"
+                                                                                                   src="./Nebo.Live_files/637.png"
+                                                                                                   class="leaflet-tile leaflet-tile-loaded"
+                                                                                                   style="width: 256px; height: 256px; transform: translate3d(310px, 304px, 0px); opacity: 1;"><img
+                            alt="" role="presentation" src="./Nebo.Live_files/637(1).png"
+                            class="leaflet-tile leaflet-tile-loaded"
+                            style="width: 256px; height: 256px; transform: translate3d(566px, 304px, 0px); opacity: 1;"><img
+                            alt="" role="presentation" src="./Nebo.Live_files/636.png"
+                            class="leaflet-tile leaflet-tile-loaded"
+                            style="width: 256px; height: 256px; transform: translate3d(310px, 48px, 0px); opacity: 1;"><img
+                            alt="" role="presentation" src="./Nebo.Live_files/636(1).png"
+                            class="leaflet-tile leaflet-tile-loaded"
+                            style="width: 256px; height: 256px; transform: translate3d(566px, 48px, 0px); opacity: 1;"><img
+                            alt="" role="presentation" src="./Nebo.Live_files/638.png"
+                            class="leaflet-tile leaflet-tile-loaded"
+                            style="width: 256px; height: 256px; transform: translate3d(310px, 560px, 0px); opacity: 1;"><img
+                            alt="" role="presentation" src="./Nebo.Live_files/638(1).png"
+                            class="leaflet-tile leaflet-tile-loaded"
+                            style="width: 256px; height: 256px; transform: translate3d(566px, 560px, 0px); opacity: 1;"><img
+                            alt="" role="presentation" src="./Nebo.Live_files/637(2).png"
+                            class="leaflet-tile leaflet-tile-loaded"
+                            style="width: 256px; height: 256px; transform: translate3d(54px, 304px, 0px); opacity: 1;"><img
+                            alt="" role="presentation" src="./Nebo.Live_files/637(3).png"
+                            class="leaflet-tile leaflet-tile-loaded"
+                            style="width: 256px; height: 256px; transform: translate3d(822px, 304px, 0px); opacity: 1;"><img
+                            alt="" role="presentation" src="./Nebo.Live_files/636(2).png"
+                            class="leaflet-tile leaflet-tile-loaded"
+                            style="width: 256px; height: 256px; transform: translate3d(54px, 48px, 0px); opacity: 1;"><img
+                            alt="" role="presentation" src="./Nebo.Live_files/636(3).png"
+                            class="leaflet-tile leaflet-tile-loaded"
+                            style="width: 256px; height: 256px; transform: translate3d(822px, 48px, 0px); opacity: 1;"><img
+                            alt="" role="presentation" src="./Nebo.Live_files/638(2).png"
+                            class="leaflet-tile leaflet-tile-loaded"
+                            style="width: 256px; height: 256px; transform: translate3d(54px, 560px, 0px); opacity: 1;"><img
+                            alt="" role="presentation" src="./Nebo.Live_files/638(3).png"
+                            class="leaflet-tile leaflet-tile-loaded"
+                            style="width: 256px; height: 256px; transform: translate3d(822px, 560px, 0px); opacity: 1;"><img
+                            alt="" role="presentation" src="./Nebo.Live_files/635.png"
+                            class="leaflet-tile leaflet-tile-loaded"
+                            style="width: 256px; height: 256px; transform: translate3d(310px, -208px, 0px); opacity: 1;"><img
+                            alt="" role="presentation" src="./Nebo.Live_files/635(1).png"
+                            class="leaflet-tile leaflet-tile-loaded"
+                            style="width: 256px; height: 256px; transform: translate3d(566px, -208px, 0px); opacity: 1;"><img
+                            alt="" role="presentation" src="./Nebo.Live_files/639.png"
+                            class="leaflet-tile leaflet-tile-loaded"
+                            style="width: 256px; height: 256px; transform: translate3d(310px, 816px, 0px); opacity: 1;"><img
+                            alt="" role="presentation" src="./Nebo.Live_files/639(1).png"
+                            class="leaflet-tile leaflet-tile-loaded"
+                            style="width: 256px; height: 256px; transform: translate3d(566px, 816px, 0px); opacity: 1;"><img
+                            alt="" role="presentation" src="./Nebo.Live_files/635(2).png"
+                            class="leaflet-tile leaflet-tile-loaded"
+                            style="width: 256px; height: 256px; transform: translate3d(54px, -208px, 0px); opacity: 1;"><img
+                            alt="" role="presentation" src="./Nebo.Live_files/635(3).png"
+                            class="leaflet-tile leaflet-tile-loaded"
+                            style="width: 256px; height: 256px; transform: translate3d(822px, -208px, 0px); opacity: 1;"><img
+                            alt="" role="presentation" src="./Nebo.Live_files/637(4).png"
+                            class="leaflet-tile leaflet-tile-loaded"
+                            style="width: 256px; height: 256px; transform: translate3d(-202px, 304px, 0px); opacity: 1;"><img
+                            alt="" role="presentation" src="./Nebo.Live_files/637(5).png"
+                            class="leaflet-tile leaflet-tile-loaded"
+                            style="width: 256px; height: 256px; transform: translate3d(1078px, 304px, 0px); opacity: 1;"><img
+                            alt="" role="presentation" src="./Nebo.Live_files/639(2).png"
+                            class="leaflet-tile leaflet-tile-loaded"
+                            style="width: 256px; height: 256px; transform: translate3d(54px, 816px, 0px); opacity: 1;"><img
+                            alt="" role="presentation" src="./Nebo.Live_files/639(3).png"
+                            class="leaflet-tile leaflet-tile-loaded"
+                            style="width: 256px; height: 256px; transform: translate3d(822px, 816px, 0px); opacity: 1;"><img
+                            alt="" role="presentation" src="./Nebo.Live_files/636(4).png"
+                            class="leaflet-tile leaflet-tile-loaded"
+                            style="width: 256px; height: 256px; transform: translate3d(-202px, 48px, 0px); opacity: 1;"><img
+                            alt="" role="presentation" src="./Nebo.Live_files/636(5).png"
+                            class="leaflet-tile leaflet-tile-loaded"
+                            style="width: 256px; height: 256px; transform: translate3d(1078px, 48px, 0px); opacity: 1;"><img
+                            alt="" role="presentation" src="./Nebo.Live_files/638(4).png"
+                            class="leaflet-tile leaflet-tile-loaded"
+                            style="width: 256px; height: 256px; transform: translate3d(-202px, 560px, 0px); opacity: 1;"><img
+                            alt="" role="presentation" src="./Nebo.Live_files/638(5).png"
+                            class="leaflet-tile leaflet-tile-loaded"
+                            style="width: 256px; height: 256px; transform: translate3d(1078px, 560px, 0px); opacity: 1;"><img
+                            alt="" role="presentation" src="./Nebo.Live_files/635(4).png"
+                            class="leaflet-tile leaflet-tile-loaded"
+                            style="width: 256px; height: 256px; transform: translate3d(-202px, -208px, 0px); opacity: 1;"><img
+                            alt="" role="presentation" src="./Nebo.Live_files/635(5).png"
+                            class="leaflet-tile leaflet-tile-loaded"
+                            style="width: 256px; height: 256px; transform: translate3d(1078px, -208px, 0px); opacity: 1;"><img
+                            alt="" role="presentation" src="./Nebo.Live_files/639(4).png"
+                            class="leaflet-tile leaflet-tile-loaded"
+                            style="width: 256px; height: 256px; transform: translate3d(-202px, 816px, 0px); opacity: 1;"><img
+                            alt="" role="presentation" src="./Nebo.Live_files/639(5).png"
+                            class="leaflet-tile leaflet-tile-loaded"
+                            style="width: 256px; height: 256px; transform: translate3d(1078px, 816px, 0px); opacity: 1;"><img
+                            alt="" role="presentation" src="./Nebo.Live_files/637(6).png"
+                            class="leaflet-tile leaflet-tile-loaded"
+                            style="width: 256px; height: 256px; transform: translate3d(1334px, 304px, 0px); opacity: 1;"><img
+                            alt="" role="presentation" src="./Nebo.Live_files/636(6).png"
+                            class="leaflet-tile leaflet-tile-loaded"
+                            style="width: 256px; height: 256px; transform: translate3d(1334px, 48px, 0px); opacity: 1;"><img
+                            alt="" role="presentation" src="./Nebo.Live_files/638(6).png"
+                            class="leaflet-tile leaflet-tile-loaded"
+                            style="width: 256px; height: 256px; transform: translate3d(1334px, 560px, 0px); opacity: 1;"><img
+                            alt="" role="presentation" src="./Nebo.Live_files/635(6).png"
+                            class="leaflet-tile leaflet-tile-loaded"
+                            style="width: 256px; height: 256px; transform: translate3d(1334px, -208px, 0px); opacity: 1;"><img
+                            alt="" role="presentation" src="./Nebo.Live_files/639(6).png"
+                            class="leaflet-tile leaflet-tile-loaded"
+                            style="width: 256px; height: 256px; transform: translate3d(1334px, 816px, 0px); opacity: 1;">
+                    </div>
+                </div>
+            </div>
+            <div class="leaflet-pane leaflet-shadow-pane"></div>
+            <div class="leaflet-pane leaflet-overlay-pane">
+                <div class="leaflet-zoom-hide"
+                     style="width: 1307px; height: 937px; position: relative; transform: translate(58px, -125px);">
+                    <canvas class="heatmap-canvas" width="1307" height="937"
+                            style="position: absolute; left: 0px; top: 0px;"></canvas>
+                </div>
+            </div>
+            <div class="leaflet-pane leaflet-marker-pane">
+                <div class="leaflet-marker-icon my-div-icon marker-zone1 leaflet-zoom-animated leaflet-interactive"
+                     title="АПН «Красноярск-Солнечный»" tabindex="0"
+                     style="margin-left: -15px; margin-top: -15px; width: 12px; height: 12px; transform: translate3d(743px, 186px, 0px); z-index: 186;">
+                    <span class="my-div-span">42</span></div>
+                <div class="leaflet-marker-icon my-div-icon marker-zone1 leaflet-zoom-animated leaflet-interactive"
+                     title="АПН «Красноярск-Кубеково»" tabindex="0"
+                     style="margin-left: -15px; margin-top: -15px; width: 12px; height: 12px; transform: translate3d(1004px, 116px, 0px); z-index: 116;">
+                    <span class="my-div-span">29</span></div>
+                <div class="leaflet-marker-icon my-div-icon marker-zone1 leaflet-zoom-animated leaflet-interactive"
+                     title="АПН «Красноярск-Березовка»" tabindex="0"
+                     style="margin-left: -15px; margin-top: -15px; width: 12px; height: 12px; transform: translate3d(1038px, 371px, 0px); z-index: 371;">
+                    <span class="my-div-span">19</span></div>
+                <div class="leaflet-marker-icon my-div-icon marker-inactive leaflet-zoom-animated leaflet-interactive"
+                     title="посёлок «Теремок»" tabindex="0"
+                     style="margin-left: -15px; margin-top: -15px; width: 12px; height: 12px; transform: translate3d(928px, 569px, 0px); z-index: 569;">
+                    <span class="my-div-span">-1</span></div>
+                <div class="leaflet-marker-icon my-div-icon leaflet-zoom-animated leaflet-interactive" tabindex="0"
+                     style="margin-left: -25px; margin-top: -25px; width: 50px; height: 50px; transform: translate3d(390px, 530px, 0px); z-index: 530;">
+                    <div class="my-div-icon-cluster marker-zone2"><span class="my-div-span">59</span></div>
+                </div>
+                <div class="leaflet-marker-icon my-div-icon marker-zone2 leaflet-zoom-animated leaflet-interactive"
+                     title="Юности" tabindex="0"
+                     style="margin-left: -15px; margin-top: -15px; width: 12px; height: 12px; transform: translate3d(816px, 445px, 0px); z-index: 445;">
+                    <span class="my-div-span">67</span></div>
+                <div class="leaflet-marker-icon my-div-icon leaflet-zoom-animated leaflet-interactive" tabindex="0"
+                     style="margin-left: -25px; margin-top: -25px; width: 50px; height: 50px; transform: translate3d(870px, 498px, 0px); z-index: 498;">
+                    <div class="my-div-icon-cluster marker-zone2"><span class="my-div-span">53</span></div>
+                </div>
+                <div class="leaflet-marker-icon my-div-icon marker-zone2 leaflet-zoom-animated leaflet-interactive"
+                     title="АПН «Красноярск-Северный»" tabindex="0"
+                     style="margin-left: -15px; margin-top: -15px; width: 12px; height: 12px; transform: translate3d(755px, 315px, 0px); z-index: 315;">
+                    <span class="my-div-span">61</span></div>
+                <div class="leaflet-marker-icon my-div-icon marker-zone3 leaflet-zoom-animated leaflet-interactive"
+                     title="Сергея Лазо, 6" tabindex="0"
+                     style="margin-left: -15px; margin-top: -15px; width: 12px; height: 12px; transform: translate3d(775px, 369px, 0px); z-index: 369;">
+                    <span class="my-div-span">119</span></div>
+                <div class="leaflet-marker-icon my-div-icon marker-zone2 leaflet-zoom-animated leaflet-interactive"
+                     title="мкрн Живём" tabindex="0"
+                     style="margin-left: -15px; margin-top: -15px; width: 12px; height: 12px; transform: translate3d(583px, 325px, 0px); z-index: 325;">
+                    <span class="my-div-span">67</span></div>
+                <div class="leaflet-marker-icon my-div-icon marker-inactive leaflet-zoom-animated leaflet-interactive"
+                     title="Норильская, 4" tabindex="0"
+                     style="margin-left: -15px; margin-top: -15px; width: 12px; height: 12px; transform: translate3d(434px, 343px, 0px); z-index: 343;">
+                    <span class="my-div-span">-1</span></div>
+                <div class="leaflet-marker-icon my-div-icon leaflet-zoom-animated leaflet-interactive" tabindex="0"
+                     style="margin-left: -25px; margin-top: -25px; width: 50px; height: 50px; transform: translate3d(488px, 400px, 0px); z-index: 400;">
+                    <div class="my-div-icon-cluster marker-zone1"><span class="my-div-span">29</span></div>
+                </div>
+                <div class="leaflet-marker-icon my-div-icon leaflet-zoom-animated leaflet-interactive" tabindex="0"
+                     style="margin-left: -25px; margin-top: -25px; width: 50px; height: 50px; transform: translate3d(771px, 507px, 0px); z-index: 507;">
+                    <div class="my-div-icon-cluster marker-zone2"><span class="my-div-span">72</span></div>
+                </div>
+                <div class="leaflet-marker-icon my-div-icon leaflet-zoom-animated leaflet-interactive" tabindex="0"
+                     style="margin-left: -25px; margin-top: -25px; width: 50px; height: 50px; transform: translate3d(644px, 546px, 0px); z-index: 546;">
+                    <div class="my-div-icon-cluster marker-zone2"><span class="my-div-span">82</span></div>
+                </div>
+                <div class="leaflet-marker-icon my-div-icon marker-inactive leaflet-zoom-animated leaflet-interactive"
+                     title="Академгородок" tabindex="0"
+                     style="margin-left: -15px; margin-top: -15px; width: 12px; height: 12px; transform: translate3d(483px, 505px, 0px); z-index: 505;">
+                    <span class="my-div-span">-1</span></div>
+                <div class="leaflet-marker-icon my-div-icon marker-inactive leaflet-zoom-animated leaflet-interactive"
+                     title="Базаиха" tabindex="0"
+                     style="margin-left: -15px; margin-top: -15px; width: 12px; height: 12px; transform: translate3d(534px, 557px, 0px); z-index: 557;">
+                    <span class="my-div-span">-1</span></div>
+                <div class="leaflet-marker-icon my-div-icon marker-zone2 leaflet-zoom-animated leaflet-interactive"
+                     title="Южный Берег" tabindex="0"
+                     style="margin-left: -15px; margin-top: -15px; width: 12px; height: 12px; transform: translate3d(694px, 498px, 0px); z-index: 498;">
+                    <span class="my-div-span">73</span></div>
+                <div class="leaflet-marker-icon my-div-icon leaflet-zoom-animated leaflet-interactive" tabindex="0"
+                     style="margin-left: -25px; margin-top: -25px; width: 50px; height: 50px; transform: translate3d(579px, 443px, 0px); z-index: 443;">
+                    <div class="my-div-icon-cluster marker-zone2"><span class="my-div-span">79</span></div>
+                </div>
+                <div class="leaflet-marker-icon my-div-icon leaflet-zoom-animated leaflet-interactive" tabindex="0"
+                     style="margin-left: -25px; margin-top: -25px; width: 50px; height: 50px; transform: translate3d(651px, 446px, 0px); z-index: 446;">
+                    <div class="my-div-icon-cluster marker-zone2"><span class="my-div-span">84</span></div>
+                </div>
+                <div class="leaflet-marker-icon my-div-icon leaflet-zoom-animated leaflet-interactive" tabindex="0"
+                     style="margin-left: -25px; margin-top: -25px; width: 50px; height: 50px; transform: translate3d(690px, 400px, 0px); z-index: 400;">
+                    <div class="my-div-icon-cluster marker-zone1"><span class="my-div-span">42</span></div>
+                </div>
+            </div>
+            <div class="leaflet-pane leaflet-tooltip-pane"></div>
+            <div class="leaflet-pane leaflet-popup-pane"></div>
+            <div class="leaflet-proxy leaflet-zoom-animated"
+                 style="transform: translate3d(397458px, 163112px, 0px) scale(1024);"></div>
+        </div>
+        <div class="leaflet-control-container">
+            <div class="leaflet-top leaflet-left">
+                <div class="leaflet-control-zoom leaflet-bar leaflet-control"><a class="leaflet-control-zoom-in"
+                                                                                 href="https://nebo.live/#"
+                                                                                 title="Zoom in" role="button"
+                                                                                 aria-label="Zoom in">+</a><a
+                        class="leaflet-control-zoom-out" href="https://nebo.live/#" title="Zoom out" role="button"
+                        aria-label="Zoom out">−</a></div>
+            </div>
+            <div class="leaflet-top leaflet-right"></div>
+            <div class="leaflet-bottom leaflet-left"></div>
+            <div class="leaflet-bottom leaflet-right">
+                <div class="leaflet-control-attribution leaflet-control"><a href="https://leafletjs.com/"
+                                                                            title="A JS library for interactive maps">Leaflet</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="popup" id="ratingPollutionPopup">
+        <button class="close">
+            <img alt="close" style="{:width=&gt;&quot;16&quot;}"
+                 src="./Nebo.Live_files/x-e2592d0da031c99d6d171a1061d44546d4ce157a07b49b6e88cfb0ab57c24cc0.svg">
+        </button>
+        <div class="body"></div>
+    </div>
+    <div class="popup" id="graficPollutionPopup">
+        <button class="close">
+            <img alt="close" style="{:width=&gt;&quot;16&quot;}"
+                 src="./Nebo.Live_files/x-e2592d0da031c99d6d171a1061d44546d4ce157a07b49b6e88cfb0ab57c24cc0.svg">
+        </button>
+        <div class="body"></div>
+    </div>
+    <div id="experimental-notification-wrapper">
+        <div class="experimental-notification">
+            <button class="close" id="notification-close">
+                <img alt="close" style="{:width=&gt;&quot;16&quot;}"
+                     src="./Nebo.Live_files/x-e2592d0da031c99d6d171a1061d44546d4ce157a07b49b6e88cfb0ab57c24cc0.svg">
+            </button>
+            <div class="information">
+                Данные на сайте получены при помощи экспериментального оборудования, разрабатываемого для получения
+                информации о загрязнении воздуха
+            </div>
+            <div class="toggles">
+                <div class="toggle">
+                    <input id="toggle_experimental_notification" type="checkbox">
+                    <label for="toggle_experimental_notification">
+                        Соглашаюсь с <a href="https://ru.nebo.live/terms_of_use" target="_blank">условиями использования
+                        данных</a>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="hided">
+        <a class="sensor-link-remote" id="59f28734-a82f-41ba-af9f-6193c08f84f4" data-remote="true"
+                          href="https://nebo.live/ru/krs/sensors/sverdlovskaya">Свердловская</a><a
+            class="sensor-link-remote" id="0e5dc659-243a-4472-914b-e1da2b843c5f" data-remote="true"
+            href="https://nebo.live/ru/krs/sensors/ady-lebedevoy">Ады Лебедевой</a><a class="sensor-link-remote"
+                                                                                      id="8d0fafbb-fe8a-4452-9009-21225c11dac6"
+                                                                                      data-remote="true"
+                                                                                      href="https://nebo.live/ru/krs/sensors/yunosti">Юности</a><a
+            class="sensor-link-remote" id="b8f328c8-6574-46fe-a0f3-cc39d55628b8" data-remote="true"
+            href="https://nebo.live/ru/krs/sensors/pavlova">Павлова</a><a class="sensor-link-remote"
+                                                                          id="1b227af2-d55a-4586-9af7-24817c082dad"
+                                                                          data-remote="true"
+                                                                          href="https://nebo.live/ru/krs/sensors/kopylova">Копылова</a><a
+            class="sensor-link-remote" id="0d6e1f81-c23e-4202-b5a7-300d9859d947" data-remote="true"
+            href="https://nebo.live/ru/krs/sensors/norilskaya">Норильская, 4</a><a class="sensor-link-remote"
+                                                                                   id="f2bf810e-f1f2-4f69-8a08-13a87625ce01"
+                                                                                   data-remote="true"
+                                                                                   href="https://nebo.live/ru/krs/sensors/bazaiha">Базаиха</a><a
+            class="sensor-link-remote" id="f33e1d3f-d811-4424-b1cd-9df82cb3cd45" data-remote="true"
+            href="https://nebo.live/ru/krs/sensors/muzhestva">Мужества</a><a class="sensor-link-remote"
+                                                                             id="8ac420e0-cbff-469a-a64c-ec7f8b1fa8e9"
+                                                                             data-remote="true"
+                                                                             href="https://nebo.live/ru/krs/sensors/mkrn-zhivyom">мкрн
+        Живём</a><a class="sensor-link-remote" id="feaa41bf-2db2-4ee9-88a2-f75c345f8da7" data-remote="true"
+                    href="https://nebo.live/ru/krs/sensors/akadem">Академгородок</a><a class="sensor-link-remote"
+                                                                                       id="4a57cd59-bf70-4570-b44e-0723c1d9f55c"
+                                                                                       data-remote="true"
+                                                                                       href="https://nebo.live/ru/krs/sensors/vesny">Весны</a><a
+            class="sensor-link-remote" id="18103276-aaf9-4018-b81f-f2c3ebe9e15e" data-remote="true"
+            href="https://nebo.live/ru/krs/sensors/udachniy">Удачный</a><a class="sensor-link-remote"
+                                                                           id="7738a9cc-7888-4a8e-8abd-e9a2d1dd0bb4"
+                                                                           data-remote="true"
+                                                                           href="https://nebo.live/ru/krs/sensors/shevchenko">Шевченко</a><a
+            class="sensor-link-remote" id="f10f210d-8ec4-4341-be9a-fb21a2deac6a" data-remote="true"
+            href="https://nebo.live/ru/krs/sensors/yuzhnyy-bereg">Южный Берег</a><a class="sensor-link-remote"
+                                                                                    id="b26f219b-f3db-4f49-8a8e-958a48a435a4"
+                                                                                    data-remote="true"
+                                                                                    href="https://nebo.live/ru/krs/sensors/botanicheskiy">Ботанический
+        бульвар</a><a class="sensor-link-remote" id="8ac82a84-ead0-4d7d-89fc-c0fed18319a3" data-remote="true"
+                      href="https://nebo.live/ru/krs/sensors/teremok">посёлок «Теремок»</a><a class="sensor-link-remote"
+                                                                                              id="9ee92758-a388-4e73-8185-e2d60b617ada"
+                                                                                              data-remote="true"
+                                                                                              href="https://nebo.live/ru/krs/sensors/test14">Карла
+        Маркса</a><a class="sensor-link-remote" id="ef4f8038-2785-4772-a56b-569f4423923f" data-remote="true"
+                     href="https://nebo.live/ru/krs/sensors/test15">Проспект Свободный, 10</a><a
+            class="sensor-link-remote" id="f1e0388f-d8b6-43be-9376-a3bcf3173d80" data-remote="true"
+            href="https://nebo.live/ru/krs/sensors/Lazo_t8">Сергея Лазо, 6</a><a class="sensor-link-remote"
+                                                                                 id="f038ed04-a852-47e2-afa3-4cc3a51e88df"
+                                                                                 data-remote="true"
+                                                                                 href="https://nebo.live/ru/krs/sensors/osennyaya">Осенняя</a><a
+            class="sensor-link-remote" id="e9040d0f-39a8-433c-a469-b6e7a1c5cb0d" data-remote="true"
+            href="https://nebo.live/ru/krs/sensors/apn-krasnoyarsk-severnyy">АПН «Красноярск-Северный»</a><a
+            class="sensor-link-remote" id="dd8c8422-d95a-4e9c-abc8-8daee5c9ec1f" data-remote="true"
+            href="https://nebo.live/ru/krs/sensors/apn-krasnoyarsk-berezovka">АПН «Красноярск-Березовка»</a><a
+            class="sensor-link-remote" id="9c45ed65-259a-4c65-9561-c72642845fbf" data-remote="true"
+            href="https://nebo.live/ru/krs/sensors/apn-krasnoyarsk-solnechnyy">АПН «Красноярск-Солнечный»</a><a
+            class="sensor-link-remote" id="66da14ff-77d7-49f4-8969-7d2af5052f44" data-remote="true"
+            href="https://nebo.live/ru/krs/sensors/apn-krasnoyarsk-cheremushki">АПН «Красноярск-Черемушки»</a><a
+            class="sensor-link-remote" id="caa43d38-8b70-4f81-9a81-51eec2267115" data-remote="true"
+            href="https://nebo.live/ru/krs/sensors/apn-krasnoyarsk-kubekovo">АПН «Красноярск-Кубеково»</a><a
+            class="sensor-link-remote" id="5716df4e-c9ac-44b9-b255-c994e8085669" data-remote="true"
+            href="https://nebo.live/ru/krs/sensors/apn-krasnoyarsk-vetluzhanka">АПН «Красноярск-Ветлужанка»</a><a
+            class="sensor-link-remote" id="5b2dbcb7-e995-4be3-b0cb-7ff20cc02dd4" data-remote="true"
+            href="https://nebo.live/ru/krs/sensors/apn-krasnoyarsk-pokrovka">АПН «Красноярск-Покровка»</a><a
+            class="sensor-link-remote" id="7cea1d2f-9f03-4056-97ed-29574e1f4d26" data-remote="true"
+            href="https://nebo.live/ru/krs/sensors/apn-krasnoyarsk-sverdlovskiy">АПН «Красноярск-Свердловский»</a><a
+            class="sensor-link-remote" id="911853c4-fa1a-4849-88c1-d473d96d3e94" data-remote="true"
+            href="https://nebo.live/ru/krs/sensors/apn-krasnoyarsk-kirovskiy">АПН «Красноярск-Кировский»</a><a
+            class="sensor-link-remote" id="59f28734-a82f-41ba-af9f-6193c08f84f4" data-remote="true"
+            href="https://nebo.live/ru/krs/sensors/sverdlovskaya">Свердловская</a><a class="sensor-link-remote"
+                                                                                     id="0e5dc659-243a-4472-914b-e1da2b843c5f"
+                                                                                     data-remote="true"
+                                                                                     href="https://nebo.live/ru/krs/sensors/ady-lebedevoy">Ады
+        Лебедевой</a><a class="sensor-link-remote" id="8d0fafbb-fe8a-4452-9009-21225c11dac6" data-remote="true"
+                        href="https://nebo.live/ru/krs/sensors/yunosti">Юности</a><a class="sensor-link-remote"
+                                                                                     id="b8f328c8-6574-46fe-a0f3-cc39d55628b8"
+                                                                                     data-remote="true"
+                                                                                     href="https://nebo.live/ru/krs/sensors/pavlova">Павлова</a><a
+            class="sensor-link-remote" id="1b227af2-d55a-4586-9af7-24817c082dad" data-remote="true"
+            href="https://nebo.live/ru/krs/sensors/kopylova">Копылова</a><a class="sensor-link-remote"
+                                                                            id="0d6e1f81-c23e-4202-b5a7-300d9859d947"
+                                                                            data-remote="true"
+                                                                            href="https://nebo.live/ru/krs/sensors/norilskaya">Норильская,
+        4</a><a class="sensor-link-remote" id="f2bf810e-f1f2-4f69-8a08-13a87625ce01" data-remote="true"
+                href="https://nebo.live/ru/krs/sensors/bazaiha">Базаиха</a><a class="sensor-link-remote"
+                                                                              id="f33e1d3f-d811-4424-b1cd-9df82cb3cd45"
+                                                                              data-remote="true"
+                                                                              href="https://nebo.live/ru/krs/sensors/muzhestva">Мужества</a><a
+            class="sensor-link-remote" id="8ac420e0-cbff-469a-a64c-ec7f8b1fa8e9" data-remote="true"
+            href="https://nebo.live/ru/krs/sensors/mkrn-zhivyom">мкрн Живём</a><a class="sensor-link-remote"
+                                                                                  id="feaa41bf-2db2-4ee9-88a2-f75c345f8da7"
+                                                                                  data-remote="true"
+                                                                                  href="https://nebo.live/ru/krs/sensors/akadem">Академгородок</a><a
+            class="sensor-link-remote" id="4a57cd59-bf70-4570-b44e-0723c1d9f55c" data-remote="true"
+            href="https://nebo.live/ru/krs/sensors/vesny">Весны</a><a class="sensor-link-remote"
+                                                                      id="18103276-aaf9-4018-b81f-f2c3ebe9e15e"
+                                                                      data-remote="true"
+                                                                      href="https://nebo.live/ru/krs/sensors/udachniy">Удачный</a><a
+            class="sensor-link-remote" id="7738a9cc-7888-4a8e-8abd-e9a2d1dd0bb4" data-remote="true"
+            href="https://nebo.live/ru/krs/sensors/shevchenko">Шевченко</a><a class="sensor-link-remote"
+                                                                              id="f10f210d-8ec4-4341-be9a-fb21a2deac6a"
+                                                                              data-remote="true"
+                                                                              href="https://nebo.live/ru/krs/sensors/yuzhnyy-bereg">Южный
+        Берег</a><a class="sensor-link-remote" id="b26f219b-f3db-4f49-8a8e-958a48a435a4" data-remote="true"
+                    href="https://nebo.live/ru/krs/sensors/botanicheskiy">Ботанический бульвар</a><a
+            class="sensor-link-remote" id="8ac82a84-ead0-4d7d-89fc-c0fed18319a3" data-remote="true"
+            href="https://nebo.live/ru/krs/sensors/teremok">посёлок «Теремок»</a><a class="sensor-link-remote"
+                                                                                    id="9ee92758-a388-4e73-8185-e2d60b617ada"
+                                                                                    data-remote="true"
+                                                                                    href="https://nebo.live/ru/krs/sensors/test14">Карла
+        Маркса</a><a class="sensor-link-remote" id="ef4f8038-2785-4772-a56b-569f4423923f" data-remote="true"
+                     href="https://nebo.live/ru/krs/sensors/test15">Проспект Свободный, 10</a><a
+            class="sensor-link-remote" id="f1e0388f-d8b6-43be-9376-a3bcf3173d80" data-remote="true"
+            href="https://nebo.live/ru/krs/sensors/Lazo_t8">Сергея Лазо, 6</a><a class="sensor-link-remote"
+                                                                                 id="f038ed04-a852-47e2-afa3-4cc3a51e88df"
+                                                                                 data-remote="true"
+                                                                                 href="https://nebo.live/ru/krs/sensors/osennyaya">Осенняя</a><a
+            class="sensor-link-remote" id="e9040d0f-39a8-433c-a469-b6e7a1c5cb0d" data-remote="true"
+            href="https://nebo.live/ru/krs/sensors/apn-krasnoyarsk-severnyy">АПН «Красноярск-Северный»</a><a
+            class="sensor-link-remote" id="dd8c8422-d95a-4e9c-abc8-8daee5c9ec1f" data-remote="true"
+            href="https://nebo.live/ru/krs/sensors/apn-krasnoyarsk-berezovka">АПН «Красноярск-Березовка»</a><a
+            class="sensor-link-remote" id="9c45ed65-259a-4c65-9561-c72642845fbf" data-remote="true"
+            href="https://nebo.live/ru/krs/sensors/apn-krasnoyarsk-solnechnyy">АПН «Красноярск-Солнечный»</a><a
+            class="sensor-link-remote" id="66da14ff-77d7-49f4-8969-7d2af5052f44" data-remote="true"
+            href="https://nebo.live/ru/krs/sensors/apn-krasnoyarsk-cheremushki">АПН «Красноярск-Черемушки»</a><a
+            class="sensor-link-remote" id="caa43d38-8b70-4f81-9a81-51eec2267115" data-remote="true"
+            href="https://nebo.live/ru/krs/sensors/apn-krasnoyarsk-kubekovo">АПН «Красноярск-Кубеково»</a><a
+            class="sensor-link-remote" id="5716df4e-c9ac-44b9-b255-c994e8085669" data-remote="true"
+            href="https://nebo.live/ru/krs/sensors/apn-krasnoyarsk-vetluzhanka">АПН «Красноярск-Ветлужанка»</a><a
+            class="sensor-link-remote" id="5b2dbcb7-e995-4be3-b0cb-7ff20cc02dd4" data-remote="true"
+            href="https://nebo.live/ru/krs/sensors/apn-krasnoyarsk-pokrovka">АПН «Красноярск-Покровка»</a><a
+            class="sensor-link-remote" id="7cea1d2f-9f03-4056-97ed-29574e1f4d26" data-remote="true"
+            href="https://nebo.live/ru/krs/sensors/apn-krasnoyarsk-sverdlovskiy">АПН «Красноярск-Свердловский»</a><a
+            class="sensor-link-remote" id="911853c4-fa1a-4849-88c1-d473d96d3e94" data-remote="true"
+            href="https://nebo.live/ru/krs/sensors/apn-krasnoyarsk-kirovskiy">АПН «Красноярск-Кировский»</a><a
+            class="city-link-remote" id="6050b5cb-9f31-49c4-bda3-7cf1c86e2236" href="https://nebo.live/ru/uskemen">Усть-Каменогорск</a><a
+            class="city-link-remote" id="2cc4f53b-3d0c-4e97-8eb2-ce86b1fbbf5c" href="https://nebo.live/ru/pavlodar">Павлодар </a><a
+            class="city-link-remote" id="c6e7c4e1-3713-4d3d-9dcb-1994538da3ed" href="https://nebo.live/ru/temirtau">Темиртау</a><a
+            class="city-link-remote" id="8e421580-e5ed-4a01-b2db-b2afe847bb8c"
+            href="https://nebo.live/ru/almaty">Алматы</a><a class="city-link-remote"
+                                                            id="3c0a92e4-2619-44d2-a837-aea9ee140c89"
+                                                            href="https://nebo.live/ru/nursultan">Нур-Султан</a><a
+            class="city-link-remote" id="cff8b305-e5cc-448a-a487-ed4a32203310" href="https://nebo.live/ru/karaganda">Караганда</a><a
+            class="city-link-remote" id="e4e55b59-ae94-4994-8d23-b77bcee93162" href="https://nebo.live/ru/bishkek">Бишкек</a><a
+            class="city-link-remote" id="bba7d048-67e7-49a3-8a89-38082d06f431" href="https://nebo.live/ru/achinsk">Ачинск</a><a
+            class="city-link-remote" id="42fe7ba7-1168-4d22-8a16-92178f674766"
+            href="https://nebo.live/ru/kansk">Канск</a><a class="city-link-remote"
+                                                          id="cbc39537-0474-4897-a299-baed986c3f2e"
+                                                          href="https://nebo.live/ru/zelenogorsk">Зеленогорск</a><a
+            class="city-link-remote" id="d839fc3f-52cf-41f5-bc27-7b6ec52ac201"
+            href="https://nebo.live/ru/bratsk">Братск</a><a class="city-link-remote"
+                                                            id="844568bb-c2f2-4313-a061-555cb72bc143"
+                                                            href="https://nebo.live/ru/ulan-ude">Улан-Удэ</a><a
+            class="city-link-remote" id="010b0cb9-e188-4a2a-8c63-d078dd555f4e"
+            href="https://nebo.live/ru/moscow">Москва</a><a class="city-link-remote"
+                                                            id="f91c125b-fdfb-4db7-973d-6a75571e327a"
+                                                            href="https://nebo.live/ru/novosibirsk">Новосибирск</a><a
+            class="city-link-remote" id="95787cb5-da9b-4539-8fca-87cf3f49d239"
+            href="https://nebo.live/ru/tomsk">Томск</a><a class="city-link-remote"
+                                                          id="f50171f0-68cc-44d5-b5ca-b6864683a7ab"
+                                                          href="https://nebo.live/ru/iskitim">Искитим</a><a
+            class="city-link-remote" id="04fbd73a-6ef4-409d-95bc-889ddb01ff52" href="https://nebo.live/ru/novokuznetsk">Новокузнецк</a><a
+            class="city-link-remote" id="15a89fc9-2275-4631-8569-624063a61c92"
+            href="https://nebo.live/ru/sibay">Сибай</a><a class="city-link-remote"
+                                                          id="cb0139c3-11a8-4ee8-b1c6-d05a09ee623b"
+                                                          href="https://nebo.live/ru/spb">Санкт-Петербург</a></div>
+    <script src="./Nebo.Live_files/leaflet.js.download"></script>
+    <script src="./Nebo.Live_files/leaflet.markercluster.js.download"></script>
+    <script src="./Nebo.Live_files/heatmap-dda492def4c37f4d526ac9d81d4f39e29bdd51f667ef1ee6239213bcce0b4688.js.download"></script>
+    <script src="./Nebo.Live_files/leaflet-heatmap-be57ea173b1c7615cb36d8c701127c8af352c4f34e4d332f8abffaaa150d6351.js.download"></script>
+    <script src="./Nebo.Live_files/leaflet-util-1bced7b1ac9a540cda8f203c63aff4c57ac7297bdd986f8f5f69e8a6750c293c.js.download"></script>
+    <script>
+
+        Cookies.set("root_path", "/ru/krs", {expires: 730});
+
+        var past = [[-1, 56, 42, 43, 40, -1, -1, 39, 40, -1, 42, 39, 40, 40, -1, 38, 39, 31, -1, -1, 33, 51, 21, 48, 29, 29, 63, 27, 35], [-1, 63, 40, 39, 40, -1, -1, 39, 40, -1, 39, 39, 44, 39, -1, 73, 71, 62, -1, -1, 17, 32, 25, 45, 31, 29, 54, 22, 24], [-1, 39, 41, 39, 41, -1, -1, 43, 40, -1, 41, 39, 45, 39, -1, 42, 40, 38, -1, -1, 19, 37, 21, 36, 35, 29, 41, 19, 17], [-1, 47, 40, 39, 40, -1, -1, 41, 40, -1, 40, 39, 39, 39, -1, 31, 57, 40, -1, -1, 30, 38, 25, 46, 29, 29, 30, 12, 26], [-1, 40, 40, 39, 40, -1, -1, 39, 40, -1, 39, 39, 39, 39, -1, 27, 46, 35, -1, -1, 30, 49, 24, 52, 44, 29, 16, 24, 20], [-1, 47, 39, 42, 39, -1, -1, 39, 40, -1, 40, 39, 39, 43, -1, 67, 40, 32, -1, -1, 41, 29, 39, 38, 41, 19, 29, 44, 12], [-1, 39, 39, 39, 39, -1, -1, 39, 40, -1, 39, 39, 39, 39, -1, 42, 21, 30, -1, -1, 26, 29, 29, 46, 43, 19, 25, 22, 16], [-1, 39, 39, 39, 39, -1, -1, 39, 40, -1, 39, 39, 39, 39, -1, 25, 14, 23, -1, -1, 13, 25, 14, 26, 32, 19, 19, 16, 19], [-1, 39, 39, 39, 39, -1, -1, 40, 40, -1, 40, 39, 39, 39, -1, 21, 29, 17, -1, -1, 16, 29, 12, 33, 29, 19, 30, 15, 15], [-1, 39, 39, 42, 39, -1, -1, 43, 40, -1, 40, 39, 39, 40, -1, 22, 34, 20, -1, -1, 10, 29, 30, 19, 30, 19, 22, 11, 14], [-1, 39, 39, 39, 39, -1, -1, 41, 40, -1, 40, 39, 39, 40, -1, 17, 43, 13, -1, -1, 17, 36, 9, 14, 23, 19, 22, 16, 11], [-1, 39, 39, -1, 39, -1, -1, 44, 40, -1, 50, 39, 39, 40, -1, 18, 45, 12, -1, -1, 26, 33, 15, 25, 19, 19, 24, 11, 4], [-1, 39, 39, -1, 40, -1, -1, 41, 40, -1, 41, 39, 39, 40, -1, 19, 47, 13, -1, -1, 22, 50, 10, 29, 29, 19, 25, 19, 12], [-1, 39, 39, -1, 39, -1, -1, 39, 40, -1, 40, 39, 43, 39, -1, 10, 42, 12, -1, -1, 44, 42, 25, 32, 43, 19, 20, 19, 20], [-1, 39, 39, -1, 39, -1, -1, 42, 40, -1, 42, 39, 50, 39, -1, 8, 38, 16, -1, -1, 29, 42, 9, 32, 22, 19, 19, 13, 21], [-1, 39, 39, -1, 39, -1, -1, 43, 40, -1, 41, 41, 39, 40, -1, 12, 37, 11, -1, -1, 23, 38, 13, 29, 26, 19, 19, 16, 6], [-1, 39, 39, -1, 39, -1, -1, 41, 40, -1, 41, 39, 39, 39, -1, 9, 28, 16, -1, -1, 30, 53, 11, 29, 33, 19, 19, 10, 16], [-1, 39, 39, -1, 39, -1, -1, 39, 40, -1, 39, 39, 39, 40, -1, -1, 18, 15, -1, -1, 25, 33, 19, 29, 30, 38, 18, 10, 12], [-1, 39, 39, -1, 39, -1, -1, 39, 40, -1, 39, 39, 39, 39, -1, -1, 28, 10, -1, -1, 18, 29, 16, 25, 30, 38, 10, 10, 8], [-1, 39, 39, -1, 39, -1, -1, 39, 40, -1, 39, 39, 39, 40, -1, -1, 29, 4, -1, -1, 22, 29, 12, 29, 23, 38, 16, 16, 25], [-1, 39, 39, -1, 39, -1, -1, 39, 40, -1, 39, 39, 39, 39, -1, -1, 25, 10, -1, -1, 10, 29, 29, 29, 19, 38, 14, 19, 22], [-1, 39, 42, -1, 39, -1, -1, 39, 40, -1, 39, 39, 39, 40, -1, -1, 27, 6, -1, -1, 15, 43, 25, 34, 20, 38, 17, 29, 11], [-1, 39, 39, -1, 39, -1, -1, 39, 39, -1, 40, 39, 39, 41, -1, -1, 23, 6, -1, -1, 18, 29, 22, 43, 19, 38, 18, 19, 10], [-1, 39, 39, -1, 39, -1, -1, 41, 40, -1, 39, 39, 39, 39, -1, -1, 23, 6, -1, -1, 11, 29, 14, 19, 32, 38, 12, 19, 16], [-1, 39, 39, 39, 39, -1, -1, 39, 39, -1, 39, 39, 39, 39, -1, -1, 28, 6, -1, -1, 23, 29, 10, 19, 21, 38, 20, 22, 7], [-1, 43, 39, 40, 39, -1, -1, 39, 39, -1, 39, 39, 39, 39, -1, -1, 37, 4, -1, -1, 30, 29, 10, 19, 28, 38, 20, 19, 6], [-1, 39, 39, 39, 39, -1, -1, 39, 39, -1, 39, 39, 38, 39, -1, -1, 29, 8, -1, -1, 17, 20, 12, 19, 44, 38, 13, 19, 19], [-1, 39, 39, 39, 39, -1, -1, 39, 39, -1, 38, 38, 38, 39, -1, -1, 25, 8, -1, -1, 10, 37, 19, 13, 46, 38, 13, 10, 11], [-1, 39, 39, 39, 39, -1, -1, 39, 39, -1, 39, 39, 38, 39, -1, -1, 30, 4, -1, -1, 18, 12, 13, 15, 43, 38, 13, 10, 15], [-1, 38, 39, 39, 38, -1, -1, 38, 39, -1, 38, 38, 38, 39, -1, -1, 35, 3, -1, -1, 4, 13, 13, 13, 38, 29, 17, 10, 19], [-1, 38, 39, 39, 38, -1, -1, 38, 39, -1, 38, 39, 38, 39, -1, -1, 35, 3, -1, -1, 10, 13, 14, 13, 38, 25, 23, 10, 22], [-1, 38, 38, 39, 38, -1, -1, 38, 39, -1, 38, 38, 38, 39, -1, -1, 32, 0, -1, -1, 4, 13, 10, 22, 33, 19, 13, 16, 12], [-1, 38, 38, 39, 38, -1, -1, 38, 39, -1, 38, 38, 38, 39, -1, -1, 27, 0, -1, -1, 6, 13, 10, 17, 19, 19, 7, 19, 8], [-1, 38, 38, 38, 38, -1, -1, 38, 39, -1, 38, 38, 38, 39, -1, -1, 23, 0, -1, -1, 14, 28, 12, 13, 21, 19, 4, 19, 15], [-1, 38, 38, 38, 38, -1, -1, 38, 38, -1, 38, 39, 38, 39, -1, -1, 24, 0, -1, -1, 5, 14, 11, 13, 29, 19, 13, 19, 7], [-1, 38, 38, 38, 38, -1, -1, 38, 39, -1, 38, 39, 38, 39, -1, -1, 34, 0, -1, -1, 18, 19, 12, 25, 35, 19, 11, 19, 8], [-1, 38, 38, 38, 38, -1, -1, 38, 39, -1, 38, 38, 38, 39, -1, -1, 54, 4, -1, -1, 16, 21, 11, 29, 48, 19, 19, 25, 22], [-1, 38, 38, 38, 38, -1, -1, 38, 39, -1, 39, 38, 38, 39, -1, 9, 65, 10, -1, -1, 16, 14, 16, 29, 38, 19, 11, 25, 15], [-1, 38, 38, 38, 38, -1, -1, 38, 39, -1, 38, 38, 38, 39, -1, 10, 74, 10, 9, -1, 21, 29, 20, 29, 29, 19, 18, 22, 26], [-1, 38, 38, 38, 38, -1, -1, 38, 39, -1, 38, 38, 39, 39, -1, 9, 57, -1, 9, -1, 22, 44, 27, 29, 34, 28, 13, 22, 20], [-1, 38, 38, 39, 39, -1, -1, 38, 39, -1, 38, 38, 39, 39, -1, 6, 45, -1, 11, -1, 10, 36, 22, 29, 25, 10, 11, 22, 7], [-1, 38, 38, 38, 38, -1, -1, 38, 39, -1, 39, 38, 38, 39, -1, 8, 39, 10, 10, -1, 18, 37, 29, 29, 40, 10, 20, 23, 10], [-1, 38, 38, 38, 38, -1, -1, 38, 39, -1, 39, 38, 38, 39, -1, 9, 27, 12, 8, -1, 30, 33, 22, 29, 35, 10, 22, 22, 8], [-1, 38, 39, 38, 39, -1, -1, 38, 39, -1, 38, 38, 38, 39, -1, 8, 26, 8, 8, -1, 26, 29, 19, 29, 27, 10, 19, 28, 10], [-1, 38, 39, 39, 38, -1, -1, 38, 39, -1, 39, 38, 38, 38, -1, 3, 20, 2, 6, -1, 38, 29, 19, 29, 21, 10, 31, 25, 14], [-1, 38, 39, 39, 38, -1, -1, 38, 39, -1, 39, 38, 49, 38, -1, 1, 20, 5, 6, -1, 38, 36, 23, 29, 22, 10, 25, 27, 10], [-1, 38, 39, 39, 39, -1, -1, 38, 39, -1, 39, 38, 40, 38, -1, 3, 21, 7, 9, -1, 38, 43, 22, 25, 19, 10, 19, 19, 14], [-1, 38, 39, 39, 39, -1, -1, 39, 39, -1, 39, 38, 39, 39, -1, 4, 19, 15, 15, -1, 41, 42, 19, 19, 21, 10, 19, 19, 7], [-1, 38, 39, 39, 39, -1, -1, 41, 39, -1, 39, 38, 39, 39, -1, 5, 20, 16, 14, -1, 41, 59, 19, 19, 19, 10, 19, 22, 5], [-1, 38, 39, 39, 39, -1, -1, 40, 39, -1, 39, 38, 38, 39, -1, 5, 22, 17, 10, -1, 38, 30, 19, 19, 26, 10, 19, 19, 14], [-1, 38, 39, 39, 39, -1, -1, 39, 45, -1, 39, 38, 39, 39, -1, 4, 28, 13, 8, -1, 35, 25, 25, 19, 21, 10, 19, 19, 23], [-1, 38, 39, 39, 39, -1, -1, 40, 40, -1, 39, 38, 39, 39, -1, 2, 24, 9, 3, -1, 32, 43, 28, 19, 19, 10, 21, 19, 11], [-1, 38, 39, 39, 39, -1, -1, 39, 48, -1, 39, 39, 39, 39, -1, 1, 25, 18, 3, -1, 29, 28, 19, 19, 21, 10, 19, 19, 15], [-1, 38, 39, 39, 39, -1, -1, 39, 40, -1, 39, 39, 39, 39, -1, 0, 18, 18, 0, -1, 25, 39, 13, 19, 31, 19, 19, 19, 5], [-1, 39, 39, 39, 39, -1, -1, 39, 40, -1, 39, 39, 39, 39, -1, 0, 8, 4, 0, -1, 19, 21, 10, 19, 16, 13, 16, 19, 7], [-1, 38, 39, 39, 40, -1, -1, 38, 39, -1, 39, 38, 38, 39, -1, 0, 25, 1, 0, -1, 19, 29, 25, 13, 39, 10, 13, 21, 10], [-1, 38, 39, 39, 38, -1, -1, 38, 39, -1, 38, 38, 38, 39, -1, 0, 30, 0, 0, -1, 19, 11, 17, 10, 12, 10, 21, 19, 17], [-1, 38, 39, 38, 39, -1, -1, 38, 39, -1, 39, 38, 38, 39, -1, -1, 36, 0, 0, -1, 19, 13, 10, 13, 11, 10, 8, 19, 10], [-1, 38, 39, 38, 39, -1, -1, 38, 39, -1, 38, 38, 38, 39, -1, -1, 25, 0, 0, -1, 19, 16, 10, 13, 12, 10, 15, 19, 11], [-1, 38, 39, 38, 39, -1, -1, 38, 39, -1, 38, 37, 38, 39, -1, 5, 20, 0, 0, -1, 29, 14, 11, 10, 14, 10, 17, 19, 10], [-1, 38, 40, 39, 39, -1, -1, 38, 39, -1, 39, 38, 38, 39, -1, -1, 24, 7, 0, -1, 32, 28, 10, 19, 20, 10, 15, 19, 16], [-1, 38, 41, 39, 39, -1, -1, 39, 39, -1, 39, 38, 39, 39, -1, 7, 25, 4, 0, -1, 35, 37, 10, 22, 27, 10, 16, 29, 12], [-1, 39, 39, 39, 39, -1, -1, 39, 39, -1, 39, 38, 39, 39, -1, 9, 22, 3, 1, -1, 36, 14, 12, 22, 20, 10, 26, 29, 16], [-1, 38, 40, 39, 39, -1, -1, 39, 39, -1, 39, 38, 39, 39, -1, 5, 22, 8, 0, -1, 29, 28, 14, 19, 22, 10, 32, 32, 14], [-1, 38, 41, 39, 39, -1, -1, 39, 39, -1, 39, 38, 39, 39, -1, 28, 25, 7, 0, -1, 29, 35, 19, 19, 21, 19, 32, 29, 13], [-1, 39, 41, 39, 39, -1, -1, 40, 40, -1, 39, 38, 39, 39, -1, 16, 26, 6, 1, -1, 29, 15, 16, 19, 16, 22, 26, 29, 13], [-1, 38, 41, 39, 39, -1, -1, 40, 40, -1, 39, 38, 40, 39, -1, 17, 24, 5, 3, -1, 32, 12, 4, 25, 16, 22, 17, 29, 16], [-1, 60, 41, 39, 39, -1, -1, 40, 40, -1, 39, 38, 39, 39, -1, 19, 46, 17, 5, -1, 38, 22, 11, 22, 30, 19, 34, 36, 9], [-1, 52, 40, 40, 40, -1, -1, 40, 40, -1, 39, 38, 45, 40, -1, 25, 57, 23, 8, -1, 32, 40, 16, 25, 12, 29, 25, 29, 11], [-1, 41, 41, 61, 54, -1, -1, 40, 47, -1, 39, 38, 44, 53, -1, 27, 35, 65, 24, -1, 42, 43, 22, 35, 27, 29, 74, 51, 23], [-1, 55, 49, 55, 55, -1, -1, 41, 51, -1, 40, 38, 51, 56, -1, 52, 64, 81, 38, -1, 51, 18, 27, 45, 18, 29, 86, 68, 49], [-1, 60, 54, 74, 67, -1, -1, 41, 88, -1, 44, 67, 47, 66, -1, 52, 75, 93, 45, -1, 58, 16, 37, 35, 22, 29, 112, 68, 40], [-1, 54, 67, 84, 65, -1, -1, 41, 67, -1, 42, 59, 67, 73, -1, -1, 63, 93, 119, -1, 61, 19, 42, 38, 29, 29, 134, 82, 59]];
+        var meteos = [[1, 369, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [0, 250, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [0, 260, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [0, 270, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [0, 490, 2, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [0, 490, 4, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [0, 470, 4, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [0, 480, 6, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [0, 480, 5, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [-1, 490, 7, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [-1, 480, 9, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [-1, 480, 7, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [-1, 480, 5, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [-1, 480, 7, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [-1, 470, 8, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [0, 470, 8, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [0, 480, 8, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [0, 450, 11, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [0, 450, 10, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [0, 450, 10, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [0, 450, 9, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [0, 450, 8, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [0, 440, 9, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [0, 440, 8, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [-1, 440, 8, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [-1, 440, 8, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [-1, 440, 9, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [-1, 440, 9, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [-1, 430, 9, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [-1, 440, 10, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [-1, 440, 9, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [-1, 440, 8, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [-1, 440, 9, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [-1, 440, 9, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [-1, 440, 10, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [-1, 430, 10, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [-1, 420, 7, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [-1, 410, 7, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [-1, 400, 5, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [-1, 390, 6, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [0, 390, 6, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [0, 390, 6, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [0, 400, 6, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [0, 400, 6, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [0, 420, 6, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [0, 410, 5, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [0, 420, 5, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [0, 420, 5, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [0, 430, 4, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [1, 440, 5, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [1, 430, 6, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [1, 430, 5, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [1, 430, 6, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [1, 430, 5, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [1, 430, 6, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [0, 440, 5, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [0, 450, 6, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [-1, 440, 4, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [-1, 440, 3, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [-1, 440, 2, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [-1, 440, 3, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [-2, 440, 2, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [-2, 430, 2, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [-2, 440, 3, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [-1, 450, 3, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [-1, 440, 3, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [-1, 450, 4, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [-1, 470, 5, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [-1, 460, 5, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [-1, 450, 3, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [-1, 450, 4, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [-1, 430, 4, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [0, 369, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]];
+        var markers = [["Свердловская", 55.981876, 92.877846, -1, "<a class=\"sensor-link-remote\" id=\"59f28734-a82f-41ba-af9f-6193c08f84f4\" data-remote=\"true\" href=\"/ru/krs/sensors/sverdlovskaya\">Свердловская</a>", "#59f28734-a82f-41ba-af9f-6193c08f84f4"], ["Ады Лебедевой", 56.015892, 92.871704, 54, "<a class=\"sensor-link-remote\" id=\"0e5dc659-243a-4472-914b-e1da2b843c5f\" data-remote=\"true\" href=\"/ru/krs/sensors/ady-lebedevoy\">Ады Лебедевой</a>", "#0e5dc659-243a-4472-914b-e1da2b843c5f"], ["Юности", 56.0181054, 92.98422857, 67, "<a class=\"sensor-link-remote\" id=\"8d0fafbb-fe8a-4452-9009-21225c11dac6\" data-remote=\"true\" href=\"/ru/krs/sensors/yunosti\">Юности</a>", "#8d0fafbb-fe8a-4452-9009-21225c11dac6"], ["Павлова", 55.993896, 92.947685, 84, "<a class=\"sensor-link-remote\" id=\"b8f328c8-6574-46fe-a0f3-cc39d55628b8\" data-remote=\"true\" href=\"/ru/krs/sensors/pavlova\">Павлова</a>", "#b8f328c8-6574-46fe-a0f3-cc39d55628b8"], ["Копылова", 56.013161, 92.817154, 65, "<a class=\"sensor-link-remote\" id=\"1b227af2-d55a-4586-9af7-24817c082dad\" data-remote=\"true\" href=\"/ru/krs/sensors/kopylova\">Копылова</a>", "#1b227af2-d55a-4586-9af7-24817c082dad"], ["Норильская, 4", 56.056901, 92.721567, -1, "<a class=\"sensor-link-remote\" id=\"0d6e1f81-c23e-4202-b5a7-300d9859d947\" data-remote=\"true\" href=\"/ru/krs/sensors/norilskaya\">Норильская, 4</a>", "#0d6e1f81-c23e-4202-b5a7-300d9859d947"], ["Базаиха", 55.974949, 92.790833, -1, "<a class=\"sensor-link-remote\" id=\"f2bf810e-f1f2-4f69-8a08-13a87625ce01\" data-remote=\"true\" href=\"/ru/krs/sensors/bazaiha\">Базаиха</a>", "#f2bf810e-f1f2-4f69-8a08-13a87625ce01"], ["Мужества", 56.034344, 92.884483, 41, "<a class=\"sensor-link-remote\" id=\"f33e1d3f-d811-4424-b1cd-9df82cb3cd45\" data-remote=\"true\" href=\"/ru/krs/sensors/muzhestva\">Мужества</a>", "#f33e1d3f-d811-4424-b1cd-9df82cb3cd45"], ["мкрн Живём", 56.06414866, 92.82383657, 67, "<a class=\"sensor-link-remote\" id=\"8ac420e0-cbff-469a-a64c-ec7f8b1fa8e9\" data-remote=\"true\" href=\"/ru/krs/sensors/mkrn-zhivyom\">мкрн Живём</a>", "#8ac420e0-cbff-469a-a64c-ec7f8b1fa8e9"], ["Академгородок", 55.9947425, 92.755815, -1, "<a class=\"sensor-link-remote\" id=\"feaa41bf-2db2-4ee9-88a2-f75c345f8da7\" data-remote=\"true\" href=\"/ru/krs/sensors/akadem\">Академгородок</a>", "#feaa41bf-2db2-4ee9-88a2-f75c345f8da7"], ["Весны", 56.0364009, 92.9102094, 42, "<a class=\"sensor-link-remote\" id=\"4a57cd59-bf70-4570-b44e-0723c1d9f55c\" data-remote=\"true\" href=\"/ru/krs/sensors/vesny\">Весны</a>", "#4a57cd59-bf70-4570-b44e-0723c1d9f55c"], ["Удачный", 55.97852448, 92.69506708, 59, "<a class=\"sensor-link-remote\" id=\"18103276-aaf9-4018-b81f-f2c3ebe9e15e\" data-remote=\"true\" href=\"/ru/krs/sensors/udachniy\">Удачный</a>", "#18103276-aaf9-4018-b81f-f2c3ebe9e15e"], ["Шевченко", 55.9961625, 93.03049853, 67, "<a class=\"sensor-link-remote\" id=\"7738a9cc-7888-4a8e-8abd-e9a2d1dd0bb4\" data-remote=\"true\" href=\"/ru/krs/sensors/shevchenko\">Шевченко</a>", "#7738a9cc-7888-4a8e-8abd-e9a2d1dd0bb4"], ["Южный Берег", 55.9975852, 92.90061577, 73, "<a class=\"sensor-link-remote\" id=\"f10f210d-8ec4-4341-be9a-fb21a2deac6a\" data-remote=\"true\" href=\"/ru/krs/sensors/yuzhnyy-bereg\">Южный Берег</a>", "#f10f210d-8ec4-4341-be9a-fb21a2deac6a"], ["Ботанический бульвар", 56.040778, 92.751942, -1, "<a class=\"sensor-link-remote\" id=\"b26f219b-f3db-4f49-8a8e-958a48a435a4\" data-remote=\"true\" href=\"/ru/krs/sensors/botanicheskiy\">Ботанический бульвар</a>", "#b26f219b-f3db-4f49-8a8e-958a48a435a4"], ["посёлок «Теремок»", 55.970233, 93.061016, -1, "<a class=\"sensor-link-remote\" id=\"8ac82a84-ead0-4d7d-89fc-c0fed18319a3\" data-remote=\"true\" href=\"/ru/krs/sensors/teremok\">посёлок «Теремок»</a>", "#8ac82a84-ead0-4d7d-89fc-c0fed18319a3"], ["Карла Маркса", 56.011147, 92.880922, 63, "<a class=\"sensor-link-remote\" id=\"9ee92758-a388-4e73-8185-e2d60b617ada\" data-remote=\"true\" href=\"/ru/krs/sensors/test14\">Карла Маркса</a>", "#9ee92758-a388-4e73-8185-e2d60b617ada"], ["Проспект Свободный, 10", 56.024177, 92.82518, 93, "<a class=\"sensor-link-remote\" id=\"ef4f8038-2785-4772-a56b-569f4423923f\" data-remote=\"true\" href=\"/ru/krs/sensors/test15\">Проспект Свободный, 10</a>", "#ef4f8038-2785-4772-a56b-569f4423923f"], ["Сергея Лазо, 6", 56.047306, 92.956286, 119, "<a class=\"sensor-link-remote\" id=\"f1e0388f-d8b6-43be-9376-a3bcf3173d80\" data-remote=\"true\" href=\"/ru/krs/sensors/Lazo_t8\">Сергея Лазо, 6</a>", "#f1e0388f-d8b6-43be-9376-a3bcf3173d80"], ["Осенняя", 55.992246, 92.688584, -1, "<a class=\"sensor-link-remote\" id=\"f038ed04-a852-47e2-afa3-4cc3a51e88df\" data-remote=\"true\" href=\"/ru/krs/sensors/osennyaya\">Осенняя</a>", "#f038ed04-a852-47e2-afa3-4cc3a51e88df"], ["АПН «Красноярск-Северный»", 56.06778333, 92.942475, 61, "<a class=\"sensor-link-remote\" id=\"e9040d0f-39a8-433c-a469-b6e7a1c5cb0d\" data-remote=\"true\" href=\"/ru/krs/sensors/apn-krasnoyarsk-severnyy\">АПН «Красноярск-Северный»</a>", "#e9040d0f-39a8-433c-a469-b6e7a1c5cb0d"], ["АПН «Красноярск-Березовка»", 56.04636111, 93.136592, 19, "<a class=\"sensor-link-remote\" id=\"dd8c8422-d95a-4e9c-abc8-8daee5c9ec1f\" data-remote=\"true\" href=\"/ru/krs/sensors/apn-krasnoyarsk-berezovka\">АПН «Красноярск-Березовка»</a>", "#dd8c8422-d95a-4e9c-abc8-8daee5c9ec1f"], ["АПН «Красноярск-Солнечный»", 56.117269, 92.934114, 42, "<a class=\"sensor-link-remote\" id=\"9c45ed65-259a-4c65-9561-c72642845fbf\" data-remote=\"true\" href=\"/ru/krs/sensors/apn-krasnoyarsk-solnechnyy\">АПН «Красноярск-Солнечный»</a>", "#9c45ed65-259a-4c65-9561-c72642845fbf"], ["АПН «Красноярск-Черемушки»", 55.999272, 93.012488, 38, "<a class=\"sensor-link-remote\" id=\"66da14ff-77d7-49f4-8969-7d2af5052f44\" data-remote=\"true\" href=\"/ru/krs/sensors/apn-krasnoyarsk-cheremushki\">АПН «Красноярск-Черемушки»</a>", "#66da14ff-77d7-49f4-8969-7d2af5052f44"], ["АПН «Красноярск-Кубеково»", 56.143831, 93.11350833, 29, "<a class=\"sensor-link-remote\" id=\"caa43d38-8b70-4f81-9a81-51eec2267115\" data-remote=\"true\" href=\"/ru/krs/sensors/apn-krasnoyarsk-kubekovo\">АПН «Красноярск-Кубеково»</a>", "#caa43d38-8b70-4f81-9a81-51eec2267115"], ["АПН «Красноярск-Ветлужанка»", 56.029337, 92.765433, 29, "<a class=\"sensor-link-remote\" id=\"5716df4e-c9ac-44b9-b255-c994e8085669\" data-remote=\"true\" href=\"/ru/krs/sensors/apn-krasnoyarsk-vetluzhanka\">АПН «Красноярск-Ветлужанка»</a>", "#5716df4e-c9ac-44b9-b255-c994e8085669"], ["АПН «Красноярск-Покровка»", 56.025896, 92.860477, 134, "<a class=\"sensor-link-remote\" id=\"5b2dbcb7-e995-4be3-b0cb-7ff20cc02dd4\" data-remote=\"true\" href=\"/ru/krs/sensors/apn-krasnoyarsk-pokrovka\">АПН «Красноярск-Покровка»</a>", "#5b2dbcb7-e995-4be3-b0cb-7ff20cc02dd4"], ["АПН «Красноярск-Свердловский»", 55.976276, 92.854022, 82, "<a class=\"sensor-link-remote\" id=\"7cea1d2f-9f03-4056-97ed-29574e1f4d26\" data-remote=\"true\" href=\"/ru/krs/sensors/apn-krasnoyarsk-sverdlovskiy\">АПН «Красноярск-Свердловский»</a>", "#7cea1d2f-9f03-4056-97ed-29574e1f4d26"], ["АПН «Красноярск-Кировский»", 55.994686, 92.958275, 59, "<a class=\"sensor-link-remote\" id=\"911853c4-fa1a-4849-88c1-d473d96d3e94\" data-remote=\"true\" href=\"/ru/krs/sensors/apn-krasnoyarsk-kirovskiy\">АПН «Красноярск-Кировский»</a>", "#911853c4-fa1a-4849-88c1-d473d96d3e94"]];
+        var markers_cities = [["Усть-Каменогорск", 49.971819, 82.593797, 74, "<a class=\"city-link-remote\" id=\"6050b5cb-9f31-49c4-bda3-7cf1c86e2236\" href=\"/ru/uskemen\">Усть-Каменогорск</a>", "#6050b5cb-9f31-49c4-bda3-7cf1c86e2236"], ["Павлодар ", 52.283383, 76.964457, -1, "<a class=\"city-link-remote\" id=\"2cc4f53b-3d0c-4e97-8eb2-ce86b1fbbf5c\" href=\"/ru/pavlodar\">Павлодар </a>", "#2cc4f53b-3d0c-4e97-8eb2-ce86b1fbbf5c"], ["Темиртау", 50.049151, 72.950977, 61, "<a class=\"city-link-remote\" id=\"c6e7c4e1-3713-4d3d-9dcb-1994538da3ed\" href=\"/ru/temirtau\">Темиртау</a>", "#c6e7c4e1-3713-4d3d-9dcb-1994538da3ed"], ["Алматы", 43.25667, 76.92861, 155, "<a class=\"city-link-remote\" id=\"8e421580-e5ed-4a01-b2db-b2afe847bb8c\" href=\"/ru/almaty\">Алматы</a>", "#8e421580-e5ed-4a01-b2db-b2afe847bb8c"], ["Нур-Султан", 51.1801, 71.44598, 115, "<a class=\"city-link-remote\" id=\"3c0a92e4-2619-44d2-a837-aea9ee140c89\" href=\"/ru/nursultan\">Нур-Султан</a>", "#3c0a92e4-2619-44d2-a837-aea9ee140c89"], ["Караганда", 49.83333, 73.1658, 93, "<a class=\"city-link-remote\" id=\"cff8b305-e5cc-448a-a487-ed4a32203310\" href=\"/ru/karaganda\">Караганда</a>", "#cff8b305-e5cc-448a-a487-ed4a32203310"], ["Бишкек", 42.866473, 74.582927, 131, "<a class=\"city-link-remote\" id=\"e4e55b59-ae94-4994-8d23-b77bcee93162\" href=\"/ru/bishkek\">Бишкек</a>", "#e4e55b59-ae94-4994-8d23-b77bcee93162"], ["Ачинск", 56.251333, 90.499444, -1, "<a class=\"city-link-remote\" id=\"bba7d048-67e7-49a3-8a89-38082d06f431\" href=\"/ru/achinsk\">Ачинск</a>", "#bba7d048-67e7-49a3-8a89-38082d06f431"], ["Канск", 56.220033, 95.720887, -1, "<a class=\"city-link-remote\" id=\"42fe7ba7-1168-4d22-8a16-92178f674766\" href=\"/ru/kansk\">Канск</a>", "#42fe7ba7-1168-4d22-8a16-92178f674766"], ["Зеленогорск", 56.105722, 94.572602, -1, "<a class=\"city-link-remote\" id=\"cbc39537-0474-4897-a299-baed986c3f2e\" href=\"/ru/zelenogorsk\">Зеленогорск</a>", "#cbc39537-0474-4897-a299-baed986c3f2e"], ["Братск", 56.154932, 101.624154, 40, "<a class=\"city-link-remote\" id=\"d839fc3f-52cf-41f5-bc27-7b6ec52ac201\" href=\"/ru/bratsk\">Братск</a>", "#d839fc3f-52cf-41f5-bc27-7b6ec52ac201"], ["Улан-Удэ", 51.828935, 107.589423, 44, "<a class=\"city-link-remote\" id=\"844568bb-c2f2-4313-a061-555cb72bc143\" href=\"/ru/ulan-ude\">Улан-Удэ</a>", "#844568bb-c2f2-4313-a061-555cb72bc143"], ["Москва", 55.7504, 37.6728, 8, "<a class=\"city-link-remote\" id=\"010b0cb9-e188-4a2a-8c63-d078dd555f4e\" href=\"/ru/moscow\">Москва</a>", "#010b0cb9-e188-4a2a-8c63-d078dd555f4e"], ["Новосибирск", 54.99, 82.933952, 63, "<a class=\"city-link-remote\" id=\"f91c125b-fdfb-4db7-973d-6a75571e327a\" href=\"/ru/novosibirsk\">Новосибирск</a>", "#f91c125b-fdfb-4db7-973d-6a75571e327a"], ["Томск", 56.485048, 84.960177, 77, "<a class=\"city-link-remote\" id=\"95787cb5-da9b-4539-8fca-87cf3f49d239\" href=\"/ru/tomsk\">Томск</a>", "#95787cb5-da9b-4539-8fca-87cf3f49d239"], ["Искитим", 54.634986, 83.299691, 69, "<a class=\"city-link-remote\" id=\"f50171f0-68cc-44d5-b5ca-b6864683a7ab\" href=\"/ru/iskitim\">Искитим</a>", "#f50171f0-68cc-44d5-b5ca-b6864683a7ab"], ["Новокузнецк", 53.780528, 87.139005, 42, "<a class=\"city-link-remote\" id=\"04fbd73a-6ef4-409d-95bc-889ddb01ff52\" href=\"/ru/novokuznetsk\">Новокузнецк</a>", "#04fbd73a-6ef4-409d-95bc-889ddb01ff52"], ["Сибай", 52.717516, 58.672178, 1, "<a class=\"city-link-remote\" id=\"15a89fc9-2275-4631-8569-624063a61c92\" href=\"/ru/sibay\">Сибай</a>", "#15a89fc9-2275-4631-8569-624063a61c92"], ["Санкт-Петербург", 59.930754, 30.327849, -1, "<a class=\"city-link-remote\" id=\"cb0139c3-11a8-4ee8-b1c6-d05a09ee623b\" href=\"/ru/spb\">Санкт-Петербург</a>", "#cb0139c3-11a8-4ee8-b1c6-d05a09ee623b"]];
+
+        var map;
+        var max_heatmap = 300;
+
+        var cluster_markers = [];
+        var cluster_claims = [];
+
+        var testData = {
+            max: max_heatmap,
+            min: 12,
+            data: getPointsMarkers()
+        };
+
+        var cfg = {
+            gradient: {
+                '0': '#3556A1',
+                '0.2': '#FF9C00',
+                '0.4': '#FF4B39',
+                '0.6': '#FF4B39',
+                '0.8': '#2d2d2d',
+                '1': '#0f0f0f'
+            },
+            "minOpacity": .8,
+            "blur": 1,
+            "radius": 0.04,
+            "scaleRadius": true,
+            "latField": 'lat',
+            "lngField": 'lng',
+            "valueField": 'count'
+        };
+
+        var mymap = L.map('mapInstance', {
+            minZoom: 1,
+            maxZoom: 18
+        }).setView([56.0091, 92.8725], 11);
+        var heatmapLayer = new HeatmapOverlay(cfg);
+        var cluster = L.markerClusterGroup();
+        var cities = L.markerClusterGroup();
+
+        $("#list-sensors-link").click(function () {
+            document.querySelector(".loader").classList.add("is-show");
+        });
+
+        function initMap() {
+            L.tileLayer('https://nebo.live/tiles/styles/nebo/{z}/{x}/{y}.png', {
+                maxZoom: 18,
+                attribution: false,
+                id: 'mapbox.streets'
+            }).addTo(mymap);
+
+            heatmapLayer.addTo(mymap)
+
+            var latlng = L.latLng(56.008647, 92.870700);
+
+            var iconOptions = {
+                circleColor: 'red',
+                circleText: "150",
+                fontColor: 'white'
+            };
+
+            cluster = setMarkers(mymap, markers, true);
+            cities = setMarkers(mymap, markers_cities, false);
+
+            mymap.addLayer(cluster);
+            mymap.addLayer(cities);
+
+            // check current cookies state and do action
+            if (+Cookies.get("show_sensors") || !Cookies.get("show_sensors")) {
+                showSensors();
+                document.querySelector('#toggleLayer_sensors').classList.add('is-selected');
+            } else {
+                hideSensors();
+            }
+            if (+Cookies.get("show_heatmap")) {
+                showHeatMap();
+                document.querySelector('#toggleLayer_heatmap').classList.add('is-selected');
+            } else {
+                hideHeatMap();
+            }
+        }
+
+        $(document).ready(function () {
+            initMap()
+        });
+    </script>
+
+</div>
+<script src="./Nebo.Live_files/firebase-49645ca0f0661072a0b243e622fc5278e20231d1e733e04a521c59c15b007ffc.js.download"></script>
+<script src="./Nebo.Live_files/firebase-notification-635daa651d3f3cdbbe812813cd41aefca8f53f13dbe8771d78ebce6e587ac8fc.js.download"></script>
+<script src="./Nebo.Live_files/application-2259e0fad394bb23b3879652dc7d7f9ba560c64d0ee1a71496acb94b131d8d6d.js.download"
+        data-turbolinks-track="reload"></script>
+</body>
+</html>

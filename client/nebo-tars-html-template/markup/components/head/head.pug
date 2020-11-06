@@ -1,0 +1,46 @@
+mixin head()
+    meta(charset="utf-8")
+    meta(http-equiv="x-ua-compatible", content="ie=edge")
+    title Nebo.Live
+    meta(content="", name="description")
+    meta(content="", name="keywords")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(content="telephone=no", name="format-detection")
+    meta(name="HandheldFriendly", content="true")
+    <link rel="shortcut icon" type="image/png" href="static/img/general/favs/favicon.png">
+    <link rel="apple-touch-icon" type="image/png" href="static/img/general/favs/favicon.png">
+    <script src="https://cdn.polyfill.io/v3/polyfill.js?features=default,String.prototype.repeat,Array.prototype.find,Array.prototype.findIndex,Math.trunc,Math.sign,Object.is,Array.prototype.forEach,NodeList.prototype.forEach"></script>
+    <link href="static/css/main%=hash=%%=min=%.css" rel="stylesheet" type="text/css">
+
+    //- if data.useSocialMetaTags
+    //-     meta(property="og:title", content="#{data.title}")
+    //-     meta(property="og:title", content="")
+    //-     meta(property="og:url", content="")
+    //-     meta(property="og:description", content="")
+    //-     meta(property="og:image", content="")
+    //-     meta(property="og:image:type", content="image/jpeg")
+    //-     meta(property="og:image:width", content="500")
+    //-     meta(property="og:image:height", content="300")
+    //-     meta(property="twitter:description", content="")
+    //-     link(rel="image_src", href="")
+    link(rel="preload" href="static/fonts/ttroundscondensed-regular.woff2" as="font" crossorigin)
+    //- link(rel="preload" href="static/fonts/hinted-subset-ttrounds-light.woff2" as="font" crossorigin)
+    //- <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    //- <script src="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    //- <script src="//cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
+
+    style.
+        @font-face {
+            font-family: 'TTRounds';
+            src: url('static/fonts/ttroundscondensed-regular.woff2') format('woff2'),
+                url('static/fonts/ttroundscondensed-regular.woff') format('woff');
+            font-weight: 400;
+            font-style: normal;
+        }
+        //- @font-face {
+        //-     font-family: 'TTRounds';
+        //-     src: url('static/fonts/hinted-subset-ttrounds-light.woff2') format('woff2'),
+        //-         url('static/fonts/hinted-subset-ttrounds-light.woff') format('woff');
+        //-     font-weight: 300;
+        //-     font-style: normal;
+        //- }
