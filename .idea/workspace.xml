@@ -20,18 +20,34 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:dev" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a93724db-b843-4a10-b9a3-36db44c2f3b6" name="Default Changelist" comment="" />
+    <list default="true" id="a93724db-b843-4a10-b9a3-36db44c2f3b6" name="Default Changelist" comment="add ts">
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scraping.ts" beforeDir="false" afterPath="$PROJECT_DIR$/scraping.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1jkGT8Y1nPDB4iQXW48BczxCgsT" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -40,7 +56,10 @@
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.18.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="12.19.3" />
@@ -70,7 +89,26 @@
       <option name="presentableId" value="Default" />
       <updated>1604340681003</updated>
       <workItem from="1604340682096" duration="2283000" />
+      <workItem from="1604345612783" duration="1491000" />
+      <workItem from="1604404737740" duration="1249000" />
+      <workItem from="1604493896774" duration="634000" />
+      <workItem from="1604647671772" duration="1921000" />
     </task>
+    <task id="LOCAL-00001" summary="initial">
+      <created>1604345648480</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604345648480</updated>
+    </task>
+    <task id="LOCAL-00002" summary="initial">
+      <created>1604345701144</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604345701144</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -81,7 +119,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="dev" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -89,7 +139,24 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="123" />
-    <option name="LAST_COMMIT_MESSAGE" value="123" />
+    <MESSAGE value="initial" />
+    <MESSAGE value="add ts" />
+    <option name="LAST_COMMIT_MESSAGE" value="add ts" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="905" y="87" key="CommitChangelistDialog2" timestamp="1604654050433">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="905" y="87" key="CommitChangelistDialog2/0.0.2560.1040@0.0.2560.1040" timestamp="1604654050433" />
+    <state x="872" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604345703218">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="872" y="253" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1604345703218" />
+    <state x="987" y="224" width="585" height="592" key="find.popup" timestamp="1604493925086">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="987" y="224" width="585" height="592" key="find.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1604493925086" />
   </component>
 </project>
