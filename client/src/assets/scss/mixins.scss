@@ -167,3 +167,17 @@ $media-direction: max !default;
         }
     }
 }
+
+@mixin customize-scrollbar {
+    &::-webkit-scrollbar {
+        width: 10px;
+    }
+    &::-webkit-scrollbar-thumb {
+        background: #96adff;
+    }
+    &::-webkit-scrollbar-track {
+        background: transparent;
+    }
+    scrollbar-color: #96adff transparent;
+    scrollbar-width: thin;
+}

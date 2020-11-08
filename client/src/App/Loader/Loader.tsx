@@ -18,9 +18,9 @@ export function Loader() {
                 <path
                     d="M18.5 7L17.5 5.5L14 3L11 2L7 3L4.5 4.5L3 7L2 9.5L2.5 12L3.5 14.5L5.5 17L8 18.5H11.5L15 17.5L17.5 15.5L19 12.5L20.5 10L22 8L23.5 5.5L26.5 3.5L29 3H31.5L34 3.5L36 5.5L37.5 8L38 10V12.5L37.5 14.5L36 17L34 18L31.5 19H29L27 18.5L25 17.5L22.5 15L22 14.5"
                     stroke="black"
-                    stroke-width="4"
-                    style={{strokeDasharray: 98,  stroke: '#4479ff', strokeLinecap: 'round'}}
-                    clip-path="url(#clipPathId)"
+                    strokeWidth="4"
+                    style={{strokeDasharray: 98, stroke: '#4479ff', strokeLinecap: 'round'}}
+                    clipPath="url(#clipPathId)"
                     id="loader-anim-path"/>
             </svg>
         </div>

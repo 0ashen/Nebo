@@ -1,0 +1,152 @@
+.play-button {
+  width: 37px;
+  height: 37px;
+  border: white 2px solid;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: border 0.1s ease-in-out;
+  align-self: flex-end;
+  position: relative;
+  // z-index: 3;
+  margin: 0 0 45px 45px;
+  @media screen and (max-width: 1023px) {
+    margin: 0 0 36px 34px;
+  }
+
+  &:hover {
+    border: #62d100 2px solid;
+
+    &:before,
+    &:after {
+      background-color: #62d100;
+    }
+  }
+
+  &:before,
+  &:after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 12px;
+    right: 34px;
+    width: 2px;
+    height: 12px;
+    border-radius: 3px;
+    background-color: white;
+    transform-origin: center;
+    transition: transform 0.4s ease-in-out, background 0.1s ease-in-out;
+  }
+
+  &:before {
+    transform: translateX(16px) translateY(-2px) rotate(0deg);
+  }
+
+  &:after {
+    transform: translateX(21px) translateY(-2px) rotate(0deg);
+  }
+
+  &.is-stop {
+    &:before {
+      transform: translateX(20px) translateY(-4px) rotate(-55deg);
+    }
+
+    &:after {
+      transform: translateX(20px) translateY(2px) rotate(-125deg);
+    }
+  }
+}
+
+.history-slider {
+  align-self: flex-end;
+  flex-grow: 1;
+  max-width: 928px;
+  margin-left: 24px;
+  margin-right: 50px;
+
+  border-radius: 0;
+  border: 0;
+  box-shadow: none;
+  height: 3px;
+  background-color: #fff;
+  position: relative;
+  z-index: 0;
+  margin-bottom: 63px;
+  @media screen and (max-width: 1023px) {
+    margin-bottom: 55px;
+  }
+
+  .noUi-base {
+    cursor: pointer;
+
+    &:before {
+      content: '';
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      height: 40px;
+      width: 100%;
+    }
+  }
+
+  .noUi-handle.noUi-handle-lower {
+    box-shadow: none;
+    border: none;
+    top: -9px;
+    right: -10px;
+    outline: none;
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    cursor: pointer;
+
+    &:before {
+      display: none;
+    }
+
+    &:after {
+      background: none;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 70px;
+      height: 70px;
+    }
+
+    &:hover {
+    }
+
+    .noUi-touch-area {
+      border-radius: 50%;
+      background-color: #6cd320;
+      transition: transform 0.2s ease;
+    }
+
+    &:hover .noUi-touch-area {
+      transform: scale(1.2);
+    }
+
+    .noUi-tooltip {
+      font-size: 11px;
+      background: none;
+      border: none;
+      box-shadow: none;
+      color: #fff;
+      backface-visibility: hidden;
+    }
+  }
+
+  .noUi-marker.noUi-marker-horizontal.noUi-marker-large {
+    display: none;
+  }
+
+  .noUi-value.noUi-value-horizontal.noUi-value-large {
+    color: #fff;
+    font-size: 12px;
+    @media screen and (max-width: 1023px) {
+      font-size: 8px;
+    }
+  }
+}

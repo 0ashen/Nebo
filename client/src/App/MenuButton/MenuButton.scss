@@ -1,0 +1,35 @@
+.menu-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  padding: 16px 50px;
+  @media screen and (max-width: 1023px) {
+    padding: 10px 29px;
+  }
+
+  &:hover {
+    span,
+    &:after,
+    &:before {
+      opacity: 0.7;
+    }
+  }
+
+  span,
+  &:after,
+  &:before {
+    content: '';
+    display: block;
+    border-radius: 50%;
+    background-color: #f2f7fd;
+    margin-bottom: 6px;
+    transition: opacity 0.2s ease;
+    width: 8px;
+    height: 8px;
+    @media screen and (max-width: 1023px) {
+      width: 7px;
+      height: 7px;
+    }
+  }
+}

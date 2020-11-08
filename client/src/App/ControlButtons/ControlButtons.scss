@@ -1,0 +1,143 @@
+.mid {
+  align-self: flex-end;
+  padding-top: 0;
+  width: 100%;
+
+  & > * {
+    pointer-events: auto;
+    flex-shrink: 0;
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0;
+    padding-right: 35px;
+    @media screen and (max-width: 1023px) {
+      padding-right: 16px;
+    }
+
+    & > li {
+      position: relative;
+      margin: 15px 0;
+      @media screen and (max-width: 1023px) {
+        margin: 11px 0;
+      }
+
+      & > button {
+        background-color: #f3f6fd;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: background-color 0.3s ease;
+        position: relative;
+        width: 42px;
+        height: 42px;
+        @media screen and (max-width: 1023px) {
+          width: 34px;
+          height: 34px;
+        }
+
+        svg * {
+          transition: fill 0.3s ease;
+        }
+
+        svg {
+          pointer-events: none;
+          @media screen and (max-width: 1023px) {
+            transform: scale(0.9);
+          }
+        }
+
+        &.is-focused {
+          background-color: #4a72fc;
+
+          svg * {
+            fill: #fff;
+          }
+        }
+      }
+
+      .tooltip {
+        position: absolute;
+        right: 100%;
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.3s;
+        top: 0;
+        padding-right: 20px;
+        @media screen and (max-width: 1023px) {
+          top: -7px;
+          padding-right: 31px;
+        }
+
+        &.is-show {
+          opacity: 1;
+          pointer-events: auto;
+        }
+
+        ul {
+          background: #ecf1f6;
+          padding-top: 4px;
+          padding-bottom: 3px;
+          position: relative;
+          min-width: 291px;
+          @media screen and (max-width: 1023px) {
+            min-width: 249px;
+          }
+
+          &:after {
+            content: '';
+            display: block;
+            position: absolute;
+            top: 12px;
+            left: 100%;
+            width: 0;
+            height: 0;
+            border: 11px solid transparent;
+            border-left-color: #ecf1f6;
+            transform: scaleY(0.7);
+          }
+
+          li {
+            a,
+            p {
+              line-height: 19px;
+              display: block;
+              padding-bottom: 9px;
+              padding-right: 20px;
+              box-sizing: border-box;
+              width: 100%;
+              transition: color 0.3s ease;
+              font-size: 16px;
+              cursor: pointer;
+              text-align: left;
+              color: #7586a4;
+              padding-top: 8px;
+              padding-left: 20px;
+              @media screen and (max-width: 1023px) {
+                margin-bottom: 1px;
+                padding-top: 6px;
+                padding-left: 18px;
+              }
+
+              &:not(.is-selected):hover {
+                color: #1f1f30;
+              }
+
+              &.is-selected {
+                color: #4a72fc;
+              }
+
+              &[disable] {
+                color: #96adff;
+                pointer-events: none;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
