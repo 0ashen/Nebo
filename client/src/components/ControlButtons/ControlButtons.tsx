@@ -1,8 +1,8 @@
 import React from 'react'
 import './ControlButtons.scss'
-import { IconLayers } from '../../../assets/img/general/layers.icon'
-import { IconRating } from '../../../assets/img/general/rating.icon'
-import { IconLang } from '../../../assets/img/general/lang.icon'
+import { IconLayers } from '../../assets/img/general/layers.icon'
+import { IconRating } from '../../assets/img/general/rating.icon'
+import { IconLang } from '../../assets/img/general/lang.icon'
 
 export function ControlButtons() {
     return (

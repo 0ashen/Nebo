@@ -1,6 +1,6 @@
 import React from 'react'
 import './Wind.scss'
-import iconWindDirection from '../../../assets/img/general/wind-direction.icon.svg'
+import iconWindDirection from '../../assets/img/general/wind-direction.icon.svg'
 
 export function Wind() {
     return (

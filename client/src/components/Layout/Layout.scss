@@ -1,4 +1,4 @@
-@import "../assets/scss/mixins";
+@import "../../assets/scss/mixins";
 
 .app {
   z-index: 5000;
@@ -387,4 +387,16 @@
     }
   }
 
+  &__city-select {
+    margin-top: 10px;
+  }
+
+  &__temperature {
+    @include media((
+            margin: (
+                    all: 23px 0 0 25px,
+                    mob: 16px 0 0 18px
+            )
+    ))
+  }
 }

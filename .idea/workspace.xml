@@ -20,45 +20,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9b916df-fff5-42ea-a858-4f33793d7a41" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/webResources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/.prettierrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/App/childrens/Map/Map.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/IComponent.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Layout/Layout.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Layout/Layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/client/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App/App.scss" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/App/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App/CitySelect/CitySelect.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App/childrens/CitySelect/CitySelect.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App/CitySelect/CitySelect.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App/childrens/CitySelect/CitySelect.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App/ControlButtons/ControlButtons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App/childrens/ControlButtons/ControlButtons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App/ControlButtons/ControlButtons.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App/childrens/ControlButtons/ControlButtons.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App/Loader/Loader.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App/childrens/Loader/Loader.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App/Loader/Loader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App/childrens/Loader/Loader.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App/Map/Map.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App/childrens/Map/Map.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App/Map/Map.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App/MenuButton/MenuButton.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App/childrens/MenuButton/MenuButton.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App/MenuButton/MenuButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App/childrens/MenuButton/MenuButton.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App/RangeSlider/RangeSlider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App/childrens/RangeSlider/RangeSlider.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App/RangeSlider/RangeSlider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App/childrens/RangeSlider/RangeSlider.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App/Temperature/Temperature.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App/childrens/Temperature/Temperature.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App/Temperature/Temperature.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App/childrens/Temperature/Temperature.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App/Wind/Wind.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App/childrens/Wind/Wind.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App/Wind/Wind.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App/childrens/Wind/Wind.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/assets/img/general/8.icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/img/general/8.icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/assets/img/general/arrow.icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/img/general/arrow.icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/assets/img/general/check.icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/img/general/check.icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/assets/img/general/close.icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/img/general/close.icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/assets/img/general/logo.icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/img/general/logo.icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/assets/img/general/loup.icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/img/general/loup.icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/assets/img/general/wind-direction.icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/img/general/wind-direction.icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/assets/img/general/x.icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/img/general/x.icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/assets/scss/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/scss/common.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/assets/scss/fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/scss/fonts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/assets/scss/mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/scss/mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/setupTests.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/setupTests.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App/childrens/CitySelect/CitySelect.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/CitySelect/CitySelect.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App/childrens/CitySelect/CitySelect.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/CitySelect/CitySelect.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App/childrens/ControlButtons/ControlButtons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/ControlButtons/ControlButtons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App/childrens/ControlButtons/ControlButtons.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/ControlButtons/ControlButtons.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App/childrens/Loader/Loader.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Loader/Loader.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App/childrens/Loader/Loader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Loader/Loader.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App/childrens/Map/Map.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Map/Map.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App/childrens/Map/Map.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Map/Map.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App/childrens/MenuButton/MenuButton.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/MenuButton/MenuButton.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App/childrens/MenuButton/MenuButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/MenuButton/MenuButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App/childrens/RangeSlider/RangeSlider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/RangeSlider/RangeSlider.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App/childrens/RangeSlider/RangeSlider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/RangeSlider/RangeSlider.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App/childrens/Temperature/Temperature.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Temperature/Temperature.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App/childrens/Temperature/Temperature.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Temperature/Temperature.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App/childrens/Wind/Wind.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Wind/Wind.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App/childrens/Wind/Wind.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Wind/Wind.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App/popups.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Layout/popups.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scraping.ts" beforeDir="false" afterPath="$PROJECT_DIR$/scraping.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +65,13 @@
       </RewordedCommitMessageMapping>
     </option>
     <option name="currentCommit" value="1" />
-    <option name="onto" value="c4846548cd14c56e6b47874d7cbd089819e3efb3" />
+    <option name="onto" value="0ce723d9289f75ec8d77a765e2f8bba55a306ece" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1k0KjIUabjXN6rQ1sYc2H8roWss" />
   <component name="ProjectLevelVcsManager">
@@ -93,7 +88,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../researching-react-projects/notus-react" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../_old/gw" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -103,12 +98,14 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="D:\Projects\nebo\node_modules\prettier" />
     <property name="run.prettier.on.save" value="true" />
-    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="D:\Projects\nebo\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\nebo\client\src\components\Layout" />
+      <recent name="D:\Projects\nebo\client\src" />
       <recent name="D:\Projects\nebo\client\src\App\childrens" />
     </key>
   </component>
@@ -152,7 +149,9 @@
       <workItem from="1604833131095" duration="931000" />
       <workItem from="1604834082072" duration="2976000" />
       <workItem from="1604844329812" duration="12118000" />
-      <workItem from="1604914893535" duration="1207000" />
+      <workItem from="1604914893535" duration="5569000" />
+      <workItem from="1604945490998" duration="4475000" />
+      <workItem from="1604950237186" duration="3311000" />
     </task>
     <task id="LOCAL-00001" summary="client: add template to react">
       <created>1604833457210</created>
@@ -168,7 +167,21 @@
       <option name="project" value="LOCAL" />
       <updated>1604833489192</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="client: add template to react">
+      <created>1604935013440</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604935013440</updated>
+    </task>
+    <task id="LOCAL-00004" summary="client: add template to react">
+      <created>1604935026233</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1604935026233</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,49 +205,57 @@
     <option name="LAST_COMMIT_MESSAGE" value="client: add template to react" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="810" y="107" width="939" height="825" key="CommitChangelistDialog2" timestamp="1604833488412">
+    <state x="1010" y="300" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper" timestamp="1604945898373">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="810" y="107" width="939" height="825" key="CommitChangelistDialog2/0.0.2560.1040@0.0.2560.1040" timestamp="1604833488412" />
-    <state x="1060" y="275" key="FileChooserDialogImpl" timestamp="1604855422992">
+    <state x="1010" y="300" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper/0.0.2560.1040@0.0.2560.1040" timestamp="1604945898373" />
+    <state x="1010" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604944767555">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1060" y="275" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1604855422992" />
-    <state x="1122" y="422" key="Git.Rebase.Log.Action.NewCommitMessage.Dialog" timestamp="1604833532262">
+    <state x="1010" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1604944767555" />
+    <state x="810" y="107" width="939" height="825" key="CommitChangelistDialog2" timestamp="1604935025485">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1122" y="422" key="Git.Rebase.Log.Action.NewCommitMessage.Dialog/0.0.2560.1040@0.0.2560.1040" timestamp="1604833532262" />
-    <state width="568" height="912" key="GridCell.Tab.0.bottom" timestamp="1604865901840">
+    <state x="810" y="107" width="939" height="825" key="CommitChangelistDialog2/0.0.2560.1040@0.0.2560.1040" timestamp="1604935025485" />
+    <state x="1060" y="275" key="FileChooserDialogImpl" timestamp="1604944352223">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="568" height="912" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1604865901840" />
-    <state width="568" height="912" key="GridCell.Tab.0.center" timestamp="1604865901840">
+    <state x="1060" y="275" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1604944352223" />
+    <state x="1122" y="422" key="Git.Rebase.Log.Action.NewCommitMessage.Dialog" timestamp="1604935033980">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="568" height="912" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1604865901840" />
-    <state width="568" height="912" key="GridCell.Tab.0.left" timestamp="1604865901840">
+    <state x="1122" y="422" key="Git.Rebase.Log.Action.NewCommitMessage.Dialog/0.0.2560.1040@0.0.2560.1040" timestamp="1604935033980" />
+    <state width="568" height="912" key="GridCell.Tab.0.bottom" timestamp="1604951395509">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="568" height="912" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1604865901840" />
-    <state width="568" height="912" key="GridCell.Tab.0.right" timestamp="1604865901840">
+    <state width="568" height="912" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1604951395509" />
+    <state width="568" height="912" key="GridCell.Tab.0.center" timestamp="1604951395509">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="568" height="912" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1604865901840" />
-    <state x="781" y="165" key="SettingsEditor" timestamp="1604856107367">
+    <state width="568" height="912" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1604951395509" />
+    <state width="568" height="912" key="GridCell.Tab.0.left" timestamp="1604951395509">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="781" y="165" key="SettingsEditor/0.0.2560.1040@0.0.2560.1040" timestamp="1604856107367" />
-    <state x="872" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604833590456">
+    <state width="568" height="912" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1604951395509" />
+    <state width="568" height="912" key="GridCell.Tab.0.right" timestamp="1604951395509">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="872" y="253" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1604833590456" />
-    <state x="987" y="253" width="585" height="534" key="find.popup" timestamp="1604844771461">
+    <state width="568" height="912" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1604951395509" />
+    <state x="781" y="165" key="SettingsEditor" timestamp="1604950618084">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="987" y="253" width="585" height="534" key="find.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1604844771461" />
-    <state x="936" y="240" key="run.anything.popup" timestamp="1604855231352">
+    <state x="781" y="165" key="SettingsEditor/0.0.2560.1040@0.0.2560.1040" timestamp="1604950618084" />
+    <state x="872" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604935041518">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="936" y="240" key="run.anything.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1604855231352" />
+    <state x="872" y="253" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1604935041518" />
+    <state x="987" y="253" width="585" height="534" key="find.popup" timestamp="1604949695597">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="987" y="253" width="585" height="534" key="find.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1604949695597" />
+    <state x="936" y="240" key="run.anything.popup" timestamp="1604950573350">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="936" y="240" key="run.anything.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1604950573350" />
   </component>
 </project>
