@@ -1,18 +1,17 @@
-import React from "react";
+import React from 'react'
 import './CitySelect.scss'
-import iconLoup from "../../assets/img/general/loup.icon.svg";
+import iconLoup from '../../../assets/img/general/loup.icon.svg'
 
-export function CitySelect(props: any) {
-    console.log(props)
+export function CitySelect(props: { class: string }) {
     return (
-        <div className="city-select">
+        <div className={`city-select ${props.class}`}>
             <div className="selected">
                 <span>Krasnoyarsk </span>
             </div>
             <div className="places">
                 <div className="search">
-                    <input type="text" placeholder="Enter fiil city name"/>
-                    <img src={iconLoup} alt=""/>
+                    <input type="text" placeholder="Enter fiil city name" />
+                    <img src={iconLoup} alt="" />
                 </div>
                 <div className="body">
                     <div className="empty">

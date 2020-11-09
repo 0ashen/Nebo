@@ -1,3 +1,5 @@
+// todo this will be scrapping data from current version nebo.live, and put it in the database
+
 const https = require('https');
 
 const options = {

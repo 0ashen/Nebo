@@ -1,5 +1,5 @@
 import React from "react";
-import './MenuButton.scss'
+import "./MenuButton.scss";
 
 export function MenuButton() {
     return (

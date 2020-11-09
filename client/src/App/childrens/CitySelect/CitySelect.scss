@@ -1,4 +1,4 @@
-@import "../../assets/scss/mixins";
+@import "../../../assets/scss/mixins";
 
 .city-select {
   margin-top: 10px;
@@ -30,7 +30,7 @@
       display: block;
       background-repeat: no-repeat;
       background-position: center;
-      background-image: url(../../assets/img/general/arrow.icon.svg);
+      background-image: url(../../../assets/img/general/arrow.icon.svg);
       margin-top: 2px;
       background-size: contain;
       width: 20px;
@@ -158,7 +158,7 @@
           width: 15px;
           height: 11px;
           pointer-events: none;
-          background-image: url(../../assets/img/general/check.icon.svg);
+          background-image: url(../../../assets/img/general/check.icon.svg);
           background-position: center;
           position: absolute;
           top: 11px;
