@@ -10,6 +10,8 @@
 
 # production
 /build
+copy
+nebo-tars-html-template
 
 # misc
 .DS_Store
