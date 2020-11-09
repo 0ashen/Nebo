@@ -105,3 +105,5 @@ dist
 
 copy
 nebo-tars-html-template
+client/copy
+client/nebo-tars-html-template

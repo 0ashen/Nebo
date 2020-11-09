@@ -124,7 +124,7 @@
       <workItem from="1604844329812" duration="12118000" />
       <workItem from="1604914893535" duration="5569000" />
       <workItem from="1604945490998" duration="4475000" />
-      <workItem from="1604950237186" duration="3538000" />
+      <workItem from="1604950237186" duration="3589000" />
     </task>
     <task id="LOCAL-00001" summary="client: add template to react">
       <created>1604833457210</created>
@@ -168,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604954478000</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="client: try to delete old folders from repo">
+      <created>1604954570246</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1604954570246</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,7 +196,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="client: add template to react" />
-    <option name="LAST_COMMIT_MESSAGE" value="client: add template to react" />
+    <MESSAGE value="client: try to delete old folders from repo" />
+    <option name="LAST_COMMIT_MESSAGE" value="client: try to delete old folders from repo" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1010" y="300" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper" timestamp="1604945898373">
@@ -200,10 +208,10 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1010" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1604944767555" />
-    <state x="810" y="107" width="939" height="825" key="CommitChangelistDialog2" timestamp="1604954477001">
+    <state x="810" y="107" width="939" height="825" key="CommitChangelistDialog2" timestamp="1604954569626">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="810" y="107" width="939" height="825" key="CommitChangelistDialog2/0.0.2560.1040@0.0.2560.1040" timestamp="1604954477001" />
+    <state x="810" y="107" width="939" height="825" key="CommitChangelistDialog2/0.0.2560.1040@0.0.2560.1040" timestamp="1604954569626" />
     <state x="1060" y="275" key="FileChooserDialogImpl" timestamp="1604944352223">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
@@ -232,10 +240,10 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="781" y="165" key="SettingsEditor/0.0.2560.1040@0.0.2560.1040" timestamp="1604950618084" />
-    <state x="872" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604954481942">
+    <state x="872" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604954572896">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="872" y="253" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1604954481942" />
+    <state x="872" y="253" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1604954572896" />
     <state x="987" y="253" width="585" height="534" key="find.popup" timestamp="1604949695597">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
