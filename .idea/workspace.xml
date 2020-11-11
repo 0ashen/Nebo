@@ -20,7 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9b916df-fff5-42ea-a858-4f33793d7a41" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/CitySelect/styles.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/CitySelect/CitySelect.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/CitySelect/CitySelect.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/CitySelect/CitySelect.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +66,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../_old/gw" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../react-repo" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -77,6 +82,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\nebo" />
       <recent name="D:\Projects\nebo\client\src\components\Layout" />
       <recent name="D:\Projects\nebo\client\src" />
       <recent name="D:\Projects\nebo\client\src\App\childrens" />
@@ -124,7 +130,9 @@
       <workItem from="1604844329812" duration="12118000" />
       <workItem from="1604914893535" duration="5569000" />
       <workItem from="1604945490998" duration="4475000" />
-      <workItem from="1604950237186" duration="3589000" />
+      <workItem from="1604950237186" duration="6843000" />
+      <workItem from="1604971521338" duration="20000" />
+      <workItem from="1605013964595" duration="2396000" />
     </task>
     <task id="LOCAL-00001" summary="client: add template to react">
       <created>1604833457210</created>
@@ -175,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604954570246</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="client: try to delete old folders from repo">
+      <created>1604954646304</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1604954646304</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,49 +223,49 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1010" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1604944767555" />
-    <state x="810" y="107" width="939" height="825" key="CommitChangelistDialog2" timestamp="1604954569626">
+    <state x="810" y="107" width="939" height="825" key="CommitChangelistDialog2" timestamp="1604954644784">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="810" y="107" width="939" height="825" key="CommitChangelistDialog2/0.0.2560.1040@0.0.2560.1040" timestamp="1604954569626" />
-    <state x="1060" y="275" key="FileChooserDialogImpl" timestamp="1604944352223">
+    <state x="810" y="107" width="939" height="825" key="CommitChangelistDialog2/0.0.2560.1040@0.0.2560.1040" timestamp="1604954644784" />
+    <state x="1060" y="275" key="FileChooserDialogImpl" timestamp="1605028216684">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1060" y="275" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1604944352223" />
+    <state x="1060" y="275" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1605028216684" />
     <state x="1122" y="422" key="Git.Rebase.Log.Action.NewCommitMessage.Dialog" timestamp="1604935033980">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1122" y="422" key="Git.Rebase.Log.Action.NewCommitMessage.Dialog/0.0.2560.1040@0.0.2560.1040" timestamp="1604935033980" />
-    <state width="568" height="912" key="GridCell.Tab.0.bottom" timestamp="1604951395509">
+    <state width="568" height="912" key="GridCell.Tab.0.bottom" timestamp="1605015408346">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="568" height="912" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1604951395509" />
-    <state width="568" height="912" key="GridCell.Tab.0.center" timestamp="1604951395509">
+    <state width="568" height="912" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1605015408346" />
+    <state width="568" height="912" key="GridCell.Tab.0.center" timestamp="1605015408346">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="568" height="912" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1604951395509" />
-    <state width="568" height="912" key="GridCell.Tab.0.left" timestamp="1604951395509">
+    <state width="568" height="912" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1605015408346" />
+    <state width="568" height="912" key="GridCell.Tab.0.left" timestamp="1605015408346">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="568" height="912" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1604951395509" />
-    <state width="568" height="912" key="GridCell.Tab.0.right" timestamp="1604951395509">
+    <state width="568" height="912" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1605015408346" />
+    <state width="568" height="912" key="GridCell.Tab.0.right" timestamp="1605015408346">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="568" height="912" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1604951395509" />
-    <state x="781" y="165" key="SettingsEditor" timestamp="1604950618084">
+    <state width="568" height="912" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1605015408346" />
+    <state x="781" y="165" key="SettingsEditor" timestamp="1604954687289">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="781" y="165" key="SettingsEditor/0.0.2560.1040@0.0.2560.1040" timestamp="1604950618084" />
-    <state x="872" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604954572896">
+    <state x="781" y="165" key="SettingsEditor/0.0.2560.1040@0.0.2560.1040" timestamp="1604954687289" />
+    <state x="872" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604954649665">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="872" y="253" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1604954572896" />
+    <state x="872" y="253" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1604954649665" />
     <state x="987" y="253" width="585" height="534" key="find.popup" timestamp="1604949695597">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="987" y="253" width="585" height="534" key="find.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1604949695597" />
-    <state x="936" y="240" key="run.anything.popup" timestamp="1604950573350">
+    <state x="936" y="240" key="run.anything.popup" timestamp="1605028174717">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="936" y="240" key="run.anything.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1604950573350" />
+    <state x="936" y="240" key="run.anything.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1605028174717" />
   </component>
 </project>

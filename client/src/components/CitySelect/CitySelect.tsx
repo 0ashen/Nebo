@@ -1,13 +1,13 @@
 import React from 'react'
-import styles from './CitySelect.module.scss'
+
 import iconLoup from '../../assets/img/general/loup.icon.svg'
 import { IComponent } from '../IComponent'
 
 interface Props extends IComponent {}
 
-export function CitySelect(props: Props) {
+export function CitySelect(props: Props): JSX.Element {
     return (
-        <div className={styles.city_select + ' ' + props.className}>
+        <div className={}>
             <div className="city_select__selected">
                 <span>Krasnoyarsk </span>
             </div>
