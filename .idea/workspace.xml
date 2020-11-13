@@ -26,9 +26,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9b916df-fff5-42ea-a858-4f33793d7a41" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/deploy-client.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/deploy-client.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/tests-client.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/tests-client.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/scss/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/scss/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/scss/common.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/scss/fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/scss/fonts.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/scss/index.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/scss/mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/scss/mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/scss/vars.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/CitySelect/styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/CitySelect/styles.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/client/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,8 +142,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.test" />
         <item itemvalue="npm.start" />
+        <item itemvalue="npm.test" />
         <item itemvalue="npm.dev" />
         <item itemvalue="npm.test" />
         <item itemvalue="npm.start" />
@@ -162,7 +171,10 @@
       <workItem from="1605175586910" duration="2066000" />
       <workItem from="1605271908746" duration="142000" />
       <workItem from="1605272911442" duration="275000" />
-      <workItem from="1605273214489" duration="3293000" />
+      <workItem from="1605273214489" duration="4254000" />
+      <workItem from="1605283873567" duration="741000" />
+      <workItem from="1605284631536" duration="67000" />
+      <workItem from="1605284709636" duration="3357000" />
     </task>
     <task id="LOCAL-00001" summary="client: add template to react">
       <created>1604833457210</created>
@@ -262,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605275556524</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="update branches">
+      <created>1605282904804</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1605282904804</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,7 +317,8 @@
     <MESSAGE value="client: try to delete old folders from repo" />
     <MESSAGE value="client: add styled components" />
     <MESSAGE value="refactoring and add github actions tests and deploy to prod" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoring and add github actions tests and deploy to prod" />
+    <MESSAGE value="update branches" />
+    <option name="LAST_COMMIT_MESSAGE" value="update branches" />
   </component>
   <component name="WindowStateProjectService">
     <state x="734" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605182147025">
@@ -313,10 +333,10 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1010" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1604944767555" />
-    <state x="810" y="107" width="939" height="825" key="CommitChangelistDialog2" timestamp="1605275555765">
+    <state x="810" y="107" width="939" height="825" key="CommitChangelistDialog2" timestamp="1605282903999">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="810" y="107" width="939" height="825" key="CommitChangelistDialog2/0.0.2560.1040@0.0.2560.1040" timestamp="1605275555765" />
+    <state x="810" y="107" width="939" height="825" key="CommitChangelistDialog2/0.0.2560.1040@0.0.2560.1040" timestamp="1605282903999" />
     <state x="1060" y="275" key="FileChooserDialogImpl" timestamp="1605181432255">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
@@ -325,30 +345,38 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1122" y="422" key="Git.Rebase.Log.Action.NewCommitMessage.Dialog/0.0.2560.1040@0.0.2560.1040" timestamp="1604935033980" />
-    <state width="568" height="912" key="GridCell.Tab.0.bottom" timestamp="1605274628075">
+    <state width="568" height="912" key="GridCell.Tab.0.bottom" timestamp="1605286372725">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="568" height="912" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1605274628075" />
-    <state width="568" height="912" key="GridCell.Tab.0.center" timestamp="1605274628075">
+    <state width="568" height="912" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1605286372725" />
+    <state width="568" height="912" key="GridCell.Tab.0.center" timestamp="1605286372725">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="568" height="912" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1605274628075" />
-    <state width="568" height="912" key="GridCell.Tab.0.left" timestamp="1605274628075">
+    <state width="568" height="912" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1605286372725" />
+    <state width="568" height="912" key="GridCell.Tab.0.left" timestamp="1605286372725">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="568" height="912" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1605274628075" />
-    <state width="568" height="912" key="GridCell.Tab.0.right" timestamp="1605274628075">
+    <state width="568" height="912" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1605286372725" />
+    <state width="568" height="912" key="GridCell.Tab.0.right" timestamp="1605286372725">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="568" height="912" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1605274628075" />
-    <state x="781" y="165" key="SettingsEditor" timestamp="1604954687289">
+    <state width="568" height="912" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1605286372725" />
+    <state x="781" y="165" key="SettingsEditor" timestamp="1605283856044">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="781" y="165" key="SettingsEditor/0.0.2560.1040@0.0.2560.1040" timestamp="1604954687289" />
+    <state x="781" y="165" key="SettingsEditor/0.0.2560.1040@0.0.2560.1040" timestamp="1605283856044" />
     <state x="872" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605275557674">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="872" y="253" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1605275557674" />
+    <state x="1059" y="364" key="cloudConfig.PluginsDialog" timestamp="1605284697159">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1059" y="364" key="cloudConfig.PluginsDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1605284697159" />
+    <state x="1152" y="364" key="cloudConfig.SelfSettingsDialog" timestamp="1605284683315">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1152" y="364" key="cloudConfig.SelfSettingsDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1605284683315" />
     <state x="1097" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605182104943">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
@@ -357,9 +385,9 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="987" y="253" width="585" height="534" key="find.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1604949695597" />
-    <state x="936" y="240" key="run.anything.popup" timestamp="1605028174717">
+    <state x="936" y="240" key="run.anything.popup" timestamp="1605284551940">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="936" y="240" key="run.anything.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1605028174717" />
+    <state x="936" y="240" key="run.anything.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1605284551940" />
   </component>
 </project>
