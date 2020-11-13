@@ -19,13 +19,13 @@ jobs:
         # install yarn and deps
       - run: npm install -g yarn
       - name: install dependencies
-        run: yarn
+        run: cd client && yarn
         # tests
       - name: run tests
         run: cd client && yarn testci
         # build
       - name: build
-        run: yarn build
+        run: cd client && yarn build
         # setup key
       - run: set -eu
       - run: mkdir "$HOME/.ssh"
@@ -33,5 +33,5 @@ jobs:
       - run: chmod 600 "$HOME/.ssh/key"
         # deploy
       - name: deploy
-        run: cd build && rsync -e "ssh -i $HOME/.ssh/key -o StrictHostKeyChecking=no" --archive --compress --delete . ${{ secrets.server__username }}@${{ secrets.server_ip }}:/var/www/${{ secrets.server__folder }}/html/
+        run: cd client/build && rsync -e "ssh -i $HOME/.ssh/key -o StrictHostKeyChecking=no" --archive --compress --delete . ${{ secrets.server__username }}@${{ secrets.server_ip }}:/var/www/${{ secrets.server__folder }}/html/
 
