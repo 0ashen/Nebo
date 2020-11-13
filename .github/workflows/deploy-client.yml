@@ -22,7 +22,7 @@ jobs:
         run: yarn
         # tests
       - name: run tests
-        run: yarn testci
+        run: cd client && yarn testci
         # build
       - name: build
         run: yarn build

@@ -20,22 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9b916df-fff5-42ea-a858-4f33793d7a41" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/deploy.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.github/workflows/tests.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/deploy-client.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/deploy-client.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/tests-client.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/tests-client.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.prettierrc" beforeDir="false" afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App/App.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.test.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/CitySelect/CitySelect.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/CitySelect/CitySelect.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/CitySelect/styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/CitySelect/styles.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scraping.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/scraping.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +149,7 @@
       <workItem from="1605175586910" duration="2066000" />
       <workItem from="1605271908746" duration="142000" />
       <workItem from="1605272911442" duration="275000" />
-      <workItem from="1605273214489" duration="1436000" />
+      <workItem from="1605273214489" duration="1883000" />
     </task>
     <task id="LOCAL-00001" summary="client: add template to react">
       <created>1604833457210</created>
@@ -227,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605126934981</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="refactoring and add github actions tests and deploy to prod">
+      <created>1605274877508</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1605274877508</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,7 +244,8 @@
     <MESSAGE value="client: add template to react" />
     <MESSAGE value="client: try to delete old folders from repo" />
     <MESSAGE value="client: add styled components" />
-    <option name="LAST_COMMIT_MESSAGE" value="client: add styled components" />
+    <MESSAGE value="refactoring and add github actions tests and deploy to prod" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring and add github actions tests and deploy to prod" />
   </component>
   <component name="WindowStateProjectService">
     <state x="734" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605182147025">
@@ -265,10 +260,10 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1010" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1604944767555" />
-    <state x="810" y="107" width="939" height="825" key="CommitChangelistDialog2" timestamp="1605126933287">
+    <state x="810" y="107" width="939" height="825" key="CommitChangelistDialog2" timestamp="1605274876238">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="810" y="107" width="939" height="825" key="CommitChangelistDialog2/0.0.2560.1040@0.0.2560.1040" timestamp="1605126933287" />
+    <state x="810" y="107" width="939" height="825" key="CommitChangelistDialog2/0.0.2560.1040@0.0.2560.1040" timestamp="1605274876238" />
     <state x="1060" y="275" key="FileChooserDialogImpl" timestamp="1605181432255">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
@@ -297,10 +292,10 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="781" y="165" key="SettingsEditor/0.0.2560.1040@0.0.2560.1040" timestamp="1604954687289" />
-    <state x="872" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605126948281">
+    <state x="872" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605274881305">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="872" y="253" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1605126948281" />
+    <state x="872" y="253" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1605274881305" />
     <state x="1097" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605182104943">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>

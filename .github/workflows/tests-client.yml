@@ -18,7 +18,7 @@ jobs:
         # install yarn and deps
       - run: npm install -g yarn
       - name: Install dependencies
-        run: yarn
+        run: cd client && yarn
         # tests
       - name: Run tests
         run: yarn testci
