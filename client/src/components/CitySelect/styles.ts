@@ -1,3 +1,6 @@
+// @ts-ignore
+module.exports.ok = 'ok'
+
 // @import "../../assets/scss/mixins";
 //
 // .city_select {

@@ -7,7 +7,7 @@ interface Props extends IComponent {}
 
 export function CitySelect(props: Props): JSX.Element {
     return (
-        <div className={}>
+        <div className="city_select">
             <div className="city_select__selected">
                 <span>Krasnoyarsk </span>
             </div>

@@ -1,0 +1,37 @@
+name: deploy
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  install:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [12.x]
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+        # install yarn and deps
+      - run: npm install -g yarn
+      - name: install dependencies
+        run: yarn
+        # tests
+      - name: run tests
+        run: yarn testci
+        # build
+      - name: build
+        run: yarn build
+        # setup key
+      - run: set -eu
+      - run: mkdir "$HOME/.ssh"
+      - run: echo "${{ secrets.key }}" > "$HOME/.ssh/key"
+      - run: chmod 600 "$HOME/.ssh/key"
+        # deploy
+      - name: deploy
+        run: cd build && rsync -e "ssh -i $HOME/.ssh/key -o StrictHostKeyChecking=no" --archive --compress --delete . ${{ secrets.server__username }}@${{ secrets.server_ip }}:/var/www/${{ secrets.server__folder }}/html/
+
