@@ -20,6 +20,7 @@ jobs:
       - name: Install dependencies
         run: cd client && yarn
         # tests
+      - run: pwd
       - name: Run tests
         run: yarn testci
 
